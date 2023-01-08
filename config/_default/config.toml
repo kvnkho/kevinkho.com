@@ -1,5 +1,5 @@
 ### General
-baseURL = 'https://www.example.com/' # Enter your full production URL
+baseURL = 'https://kevin-kho.onrender.com/' # Enter your full production URL
 languageCode = 'en-us' # Default
 timeZone = 'America/New_York' # IANA timezone https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 title = 'Example Site' # Site title used throughout site
