@@ -48,11 +48,11 @@ about_page_socials = true
 
 # Enable or disable individual social icons
 [social.links]
-  # twitter = "username"
-  github = "kvnkho"
+  twitter = "username"
+  github = "username"
   stack_overflow = "userid/username" # include user id
-  email = "kdykho@gmail.com"
-  linkedin = "kvnkho" # Comment out to disable
+  email = "user@example.com"
+  # linkedin = "username" # Comment out to disable
 
 # Enable or disable individual social share icons in posts
 [social.share]
