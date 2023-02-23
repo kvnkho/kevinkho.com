@@ -12,22 +12,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kevin-kho.onrender.com/project-types/personal/</loc>
-    <lastmod>2022-02-20T03:52:30-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/project-types/</loc>
-    <lastmod>2022-02-20T03:52:30-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://kevin-kho.onrender.com/projects/</loc>
     <lastmod>2022-02-20T03:52:30-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -43,11 +29,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kevin-kho.onrender.com/series/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/tags/</loc>
+    <loc>https://kevin-kho.onrender.com/talks/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

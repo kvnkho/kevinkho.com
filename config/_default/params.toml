@@ -6,8 +6,8 @@ disallow_search_engines = false # Disallow search engine crawling in robots.txt
 
 ### Content
 favicon = true # Enable favicon, add your favicon files to /static/ directory
-# avatar = 'avatar.png' # Custom avatar image in /assets/
-author = 'John Doe' # Default author for <head> meta
+avatar = 'images/Kevin_Kho.jpeg' # Custom avatar image in /assets/
+author = 'Kevin Kho' # Default author for <head> meta
 description = "Personal blog and portfolio site of John Doe." # Add a global meta description to <head>
 footer_text = "Built with [Hugo Liftoff](https://github.com/wjh18/hugo-liftoff) theme." # Customize footer text
 fallback_text = "No content available yet. Coming soon." # Fallback text for empty content
@@ -26,17 +26,17 @@ custom_js = 'custom.js' # Add the specified file to assets before setting this p
 
 ### Web schemas
 # Open Graph
-images = ['images/default.png'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
+images = ['images/Kevin_Kho.jpeg'] # Fallback for Open Graph and Twitter Cards images if none are present in front matter. Enter path to the image.
 ogLocale = "en_US" # Open graph locale
 
 # Twitter Cards
-twitterSite = "johndoestwitter" # Enter your twitter handle without the @
-twitterCreator = "johndoestwitter" # Enter your twitter handle without the @
+twitterSite = "kvnkho" # Enter your twitter handle without the @
+twitterCreator = "kvnkho" # Enter your twitter handle without the @
 
 # JSON-LD structured data schemas
 schemaName = "John Doe" # Enter your name
 schemaLocale = "en-US" # Structured data locale
-schemaImage = "images/default.png" # Image for Person structured data schema. Enter path to the image.
+schemaImage = "images/Kevin_Kho.png" # Image for Person structured data schema. Enter path to the image.
 schemaImageWidth = 453 # Width of the above image
 schemaImageHeight = 455 # Height of the above image
 
@@ -48,15 +48,15 @@ about_page_socials = true
 
 # Enable or disable individual social icons
 [social.links]
-  twitter = "username"
-  github = "username"
-  stack_overflow = "userid/username" # include user id
-  email = "user@example.com"
-  # linkedin = "username" # Comment out to disable
+  twitter = "kvnkho"
+  github = "kvnkho"
+  stack_overflow = "11163214/kevin-kho" # include user id
+  email = "kdykho@gmail.com"
+  linkedin = "kvnkho"
 
 # Enable or disable individual social share icons in posts
 [social.share]
-  facebook = true
+  # facebook = true
   linkedin = true
   twitter = true
   reddit = true
