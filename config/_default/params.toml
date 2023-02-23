@@ -36,7 +36,7 @@ twitterCreator = "kvnkho" # Enter your twitter handle without the @
 # JSON-LD structured data schemas
 schemaName = "John Doe" # Enter your name
 schemaLocale = "en-US" # Structured data locale
-schemaImage = "images/Kevin_Kho.png" # Image for Person structured data schema. Enter path to the image.
+schemaImage = "images/Kevin_Kho.jpeg" # Image for Person structured data schema. Enter path to the image.
 schemaImageWidth = 453 # Width of the above image
 schemaImageHeight = 455 # Height of the above image
 
