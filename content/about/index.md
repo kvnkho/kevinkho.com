@@ -1,18 +1,26 @@
 ---
 type: about
 title: Hi, my name is Kevin Kho.
-seo_title: About
+seo_title: About Me
 description: What I work on.
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at pellentesque est, at hendrerit lorem. Donec tempor laoreet commodo. Morbi quis sapien nec augue commodo molestie a a odio.
+## Hello! 👋
 
-## Who am I?
+My name is Kevin Kho. I am currently working on [Fugue](https://github.com/fugue-project/fugue/), a minimal interface to bring Python, Pandas, and SQL code to Spark, Dask, and Ray. Most recently, I was at [Prefect](https://github.com/PrefectHQ/prefect) as an Open Source Community Engineer where I managed the Slack community and created content. Before working on open-source tooling, I was a data scientist for four years across [Paylocity](https://www.paylocity.com/) and [Itron](https://www.itron.com/). 
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce sem augue, tristique luctus lobortis nec, cursus eu erat. Proin dictum vel enim a vestibulum.
+I am contracting part time with a Fortune 50 company helping them scale compute workflows to distributed computing.
 
-## My Experience
+:earth_americas:&nbsp;&nbsp;&nbsp;&nbsp;**Location**
 
-Integer est purus, aliquam ac enim aliquet, viverra sodales mauris. Integer neque sapien, fermentum sit amet augue in, vulputate pellentesque turpis. Quisque eget blandit turpis, in semper lectus.
+I am currently based out of Chicago. Always happy to meet people in person.
+
+:mailbox_with_no_mail:&nbsp;&nbsp;&nbsp;&nbsp;**Contact me!**
+
+Feel free to reach out to me for anything data related. I talk to people about big data, data artichecture, data engineering, and career advice. Always happy to speak at Meetups, Lunch and Learn, or internal company meetings about the things I'm working on.
+
+Email: kdykho@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/kvnkho
 
 Feel free to [reach out]({{< ref "contact" >}}).

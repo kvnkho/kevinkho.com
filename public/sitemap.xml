@@ -7,6 +7,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://kevin-kho.onrender.com/</loc>
+    <lastmod>2022-02-20T03:52:30-05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://kevin-kho.onrender.com/project-types/personal/</loc>
     <lastmod>2022-02-20T03:52:30-05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -22,48 +27,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://kevin-kho.onrender.com/</loc>
-    <lastmod>2022-02-20T03:52:30-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://kevin-kho.onrender.com/categories/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/tags/html/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/tags/markdown/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/subsection/markdown-syntax/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/posts/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/subsection/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/tags/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://kevin-kho.onrender.com/categories/web-development/</loc>
-    <lastmod>2020-11-17T21:21:46-05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -75,7 +39,15 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://kevin-kho.onrender.com/posts/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://kevin-kho.onrender.com/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://kevin-kho.onrender.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
