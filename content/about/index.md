@@ -1,8 +1,8 @@
 ---
 type: about
-title: Hi, my name is John Doe.
+title: Hi, my name is Kevin Kho.
 seo_title: About
-description: Learn more about my background and experience.
+description: What I work on.
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at pellentesque est, at hendrerit lorem. Donec tempor laoreet commodo. Morbi quis sapien nec augue commodo molestie a a odio.
