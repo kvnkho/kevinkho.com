@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="container">
+  <section class="section hero">
+    <div class="hero-info">
+      <h1 class="hero-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}
+        <p class="hero-subtitle">{{.}}</p>
+      {{ end }}
+      <div class="hero-btns">
+        <a class="btn-primary" href="{{ "about/" | relURL }}">About</a>
+        <a class="btn-secondary" href="{{ "projects/" | relURL }}">Projects</a>
+      </div>
+    </div>
+    <div class="hero-owner">
+      {{ $avatar := .Site.Params.avatar }}
+      {{ $default_image := "images/default.png" }}
+      {{ $image := "" }}
+      {{ with $avatar }}
+        {{ $image = resources.Get $avatar }}
+      {{ else }}
+        {{ $image = resources.Get $default_image }}
+      {{ end }}
+      {{ $image = $image | images.Filter (images.Grayscale)  }}
+      <img class="hero-avatar"
+            src="{{ $image.RelPermalink }}"
+            width="300" height="300"
+            alt="Headshot or avatar belonging to the website owner"/>
+      {{ if eq .Site.Params.home_hero_socials true }}
+        {{ partial "general/social-links.html" . }}
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}
