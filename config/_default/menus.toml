@@ -12,9 +12,9 @@
 
 [[main]]
     # Top-level menu entry
-    identifier = "writing"
-    name = "Writing"
-    url = "/posts/"
+    identifier = "blogs"
+    name = "Blogs"
+    url = "/blogs/"
     weight = 3
 
 [[main]]
