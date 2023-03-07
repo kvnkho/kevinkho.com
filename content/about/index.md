@@ -13,7 +13,7 @@ I am currently contracting part time with Citi helping them scale compute workfl
 
 :mailbox_with_no_mail:&nbsp;&nbsp;&nbsp;&nbsp;**Contact me!**
 
-Feel free to reach out to me for anything data related. I talk to people about big data, data artichecture, data engineering, and career advice. Always happy to speak at meetups or company knowledge sharings about the things I'm working on. More info in [Contact Me](/contact/)
+Feel free to reach out to me for anything data related. I talk to people about big data, data artichecture, data engineering, and career advice. Always happy to speak at meetups or company knowledge sharings about the things I'm working on. More info in the [Contact](/contact/) section.
 
 Email: kdykho@gmail.com
 
