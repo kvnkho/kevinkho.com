@@ -9,7 +9,17 @@ description: What I'm working on.
 
 My name is Kevin Kho. I am currently working on [Fugue](https://github.com/fugue-project/fugue/), a minimal interface to bring Python, Pandas, and SQL code to Spark, Dask, and Ray. Most recently, I was at [Prefect](https://github.com/PrefectHQ/prefect) as an Open Source Community Engineer where I managed the Slack community and created content. Before working on open-source tooling, I was a data scientist for four years across [Paylocity](https://www.paylocity.com/) and [Itron](https://www.itron.com/). 
 
-I am currently contracting part-time with Citi working on distributed computing tooling. I am looking for more contract opportunities around big data.
+I am currently contracting part time with Citi helping them scale compute workflows to distributed computing. I am looking for more contract opportunities around big data.
+
+:mailbox_with_no_mail:&nbsp;&nbsp;&nbsp;&nbsp;**Contact me!**
+
+Feel free to reach out to me for anything data related. I talk to people about big data, data artichecture, data engineering, and career advice. Always happy to speak at meetups or company knowledge sharings about the things I'm working on. More info in [Contact Me](/contact/)
+
+Email: kdykho@gmail.com
+
+LinkedIn: https://www.linkedin.com/in/kvnkho
+
+GitHub: https://github.com/kvnkho
 
 :earth_americas:&nbsp;&nbsp;&nbsp;&nbsp;**Location**
 
@@ -48,13 +58,3 @@ I am involved in some other things:
 * Conference Involvement:
   * SciPy 2022 Data Life Cycle Track Co-chair
   * PyData Seattle 2023 Volunteer
-
-:mailbox_with_no_mail:&nbsp;&nbsp;&nbsp;&nbsp;**Contact me!**
-
-Feel free to reach out to me for anything data related. I talk to people about big data, data artichecture, data engineering, and career advice. Always happy to speak at meetups or company knowledge sharings about the things I'm working on. More info in [Contact Me](/contact/)
-
-Email: kdykho@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/kvnkho
-
-GitHub: https://github.com/kvnkho
