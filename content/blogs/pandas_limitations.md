@@ -39,7 +39,7 @@ Pandas-like frameworks are popular because a lot of data scientists are resistan
 
 We’ll see that the attempt to achieve 1:1 parity with the Pandas API will require compromises on performance and functionality.
 
-# Data for Benchmarking
+## Data for Benchmarking
 
 We created a DataFrame with the following structure. Columns  `a`  and  `b`  are string columns. Columns  `c`  and  `d`  are numerical values. This DataFrame will have 1 million rows (but we will also change it in some cases).
 
@@ -47,7 +47,7 @@ We will create this DataFrame in Pandas, Modin (on Ray), PySpark Pandas, and Das
 
 ![](https://miro.medium.com/v2/resize:fit:1248/0*K-OSXQShdehsyGN3)
 
-# Issue 1: Pandas Assumes Data is Physically Together
+## Issue 1: Pandas Assumes Data is Physically Together
 
 One of the most used Pandas methods is  `iloc`  . This relies on an implicit global ordering of data. This is why Pandas can quickly retrieve the rows in a given set of index values. It knows where to access the memory of the row it needs to retrieve.
 
@@ -80,7 +80,7 @@ Dask actually disallowed using  `iloc`  on rows. In order for  `iloc`  to behave
 
 PySpark Pandas prioritizes maintaining Pandas parity, at the cost of performance. Meanwhile, Dask is more sensitive to preventing bad practices. Contrasting these frameworks shows us the difference in design philosophies. This is also the first indication that a  **unified interface does not mean a consistent performance profile.**
 
-# Issue 2: Pandas Assumes Data Shuffle Is Cheap
+## Issue 2: Pandas Assumes Data Shuffle Is Cheap
 
 In a distributed setting, data lives on multiple machines. Sometimes, data needs to be rearranged across machines so that each worker has all the data belonging to a logical group. This movement of data is  [called a  _shuffle_](https://spark.apache.org/docs/latest/rdd-programming-guide.html#shuffle-operations)  and is an inevitable, but expensive part of working with distributed computing.
 
@@ -103,7 +103,7 @@ This is an example of a very common Pandas code snippet that doesn’t translate
 
 The problem with Pandas-like frameworks is that users end up approaching big data problems with the same local computing mindset. It’s very easy to run into sub-optimal operations that take way longer than they should if users don’t change code when migrating to distributed settings.
 
-# Issue 3: Pandas Assumes the Index is Beneficial
+## Issue 3: Pandas Assumes the Index is Beneficial
 
 One of the core concepts ingrained in the Pandas mindset is the index. If a user comes from a Pandas background, they assume that the index is beneficial and it’s worth setting or resetting it. Let’s see how this translates to other backends.
 
@@ -128,7 +128,7 @@ For Pandas, there is a speed up when the DataFrame is indexed by  `a`  . For Mod
 
 Note also that for all of the Pandas-like frameworks mentioned above, MultiIndex is not fully supported.
 
-# Issue 4: Eager versus Lazy Evaluation (Part One)
+## Issue 4: Eager versus Lazy Evaluation (Part One)
 
 Lazy evaluation is a key feature of distributed computing frameworks. When calling operations on a DataFrame, a computation graph is constructed. The operations only happen when an action is performed that needs the data.
 
@@ -150,7 +150,7 @@ On the other hand, PySpark Pandas and Dask have tremendous speedups for this ope
 
 Modin specifically chose to optimize the experience of iterative workloads, and also match the Pandas behavior. On the other hand, PySpark Pandas chose to have the same lazy evaluation as Spark. Even if both of them are a form of “distributed Pandas”, they have very different performance profiles.
 
-# Issue 4: Eager versus Lazy Evaluation (Part Two)
+## Issue 4: Eager versus Lazy Evaluation (Part Two)
 
 Here, we see a case where eager evaluation helps users. But when practitioners don’t understand lazy evaluation, it also becomes very easy to run into duplicated work.
 
@@ -176,7 +176,7 @@ In Issue 4 we saw both sides of lazy evaluation. We saw one scenario where it le
 
 This is a common pitfall because the Pandas doesn’t have the grammar to make users mindful of this intricacy of distributed computing. People coming from Pandas are not aware of the  `persist`  operation.
 
-# Conclusion
+## Conclusion
 
 Pandas is great for local computing (aside from the fact there are too many ways to do some operations). But we need to recognize the inherent limitations of the interface and understand it was not built to scale over several machines.  **Pandas was not designed to be an interface for distributed computing.**
 
