@@ -12,7 +12,7 @@ date: 2022-01-06T21:21:46-05:00
 toc: true
 ---
 
-_There is now a native integration between PyCaret and Fugue that distributed the training of models_
+_There is now a native integration between PyCaret and Fugue that distributed the training of models. It will be documented in PyCaret 3.0_
 
 ![](https://miro.medium.com/v2/resize:fit:1400/0*V5I9QQwMv8A8RRkr)
 
