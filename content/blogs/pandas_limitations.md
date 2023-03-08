@@ -3,7 +3,7 @@ title: Why Pandas-like Interfaces are Sub-optimal for Distributed Computing
 seo_title: Why Pandas-like Interfaces are Sub-optimal for Distributed Computing
 summary: A deep look at the assumptions of the Pandas interface
 description: A deep look at the assumptions of the Pandas interface
-slug: sql_limitations
+slug: pandas_limitations
 author: Kevin Kho
 
 draft: false
