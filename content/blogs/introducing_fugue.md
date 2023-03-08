@@ -18,7 +18,7 @@ _Some parts of this article may be outdated, especially around FugueWorkflow. Th
 
 Photo by  [Cesar Carlevarino Aragon](https://unsplash.com/@carlevarino?utm_source=medium&utm_medium=referral)  on  [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
-# Fugue’s Motivation
+## Fugue’s Motivation
 
 Data practitioners often start out by working with Pandas or SQL. Sooner or later, the size of data being processed outgrows what Pandas can handle efficiently, and distributed compute becomes necessary. One such tool is Spark, a popular distributed computing framework that enables processing large amounts of data in-memory on a cluster of machines. While the Spark engine is very powerful in scaling data pipelines, there are many pitfalls that new users, and even experienced ones, face when using Spark.
 
@@ -55,7 +55,7 @@ This article will discuss the pain points Spark users face and how Fugue address
 -   Enables new users to be productive with Spark much faster
 -   Provides a SQL interface capable of handling end-to-end workflows
 
-# Inconsistencies Between Pandas and Spark
+## Inconsistencies Between Pandas and Spark
 
 _Can we have a unified interface for big and small data?_
 
@@ -156,7 +156,7 @@ On a more practical level, it is very common for data science teams to have shar
 
 This also  **future-proofs the code**. What if one day, you decide you want to use the Dask Engine? What if you wanted to use a Ray engine? Using Fugue as an abstraction layer would let you migrate seamlessly, as it would just be a matter of specifying the execution engine during runtime. On the other hand, writing code using the Spark API would automatically lock in the codebase to that framework. Fugue’s minimalistic interface intentionally makes it easy to offboard if a user wants to.
 
-# Improving Testability of Spark
+## Improving Testability of Spark
 
 _How can we accelerate the development iterations and testing on big data projects?_
 
@@ -170,7 +170,7 @@ The consistency guaranteed by Fugue ensures that running on the default engine a
 
 Users of Fugue also benefit from having to  **write fewer tests.** In our  `transform()`  example above, only the original function needs to be tested. Users can also test  `transform()`  , but it has already been heavily tested on the Fugue level. In comparison, using a PySpark approach will require 1 or 2 helper functions that then have to be tested also. An equivalent PySpark code snippet to  `transform()`  can be found  [here](https://fugue-tutorials.readthedocs.io/tutorials/beginner/introduction.html#optional-spark-equivalent-of-transform).
 
-# Reducing Expensive Mistakes
+## Reducing Expensive Mistakes
 
 _How can we reduce the friction distributed computing beginners face?_
 
@@ -206,7 +206,7 @@ By analyzing the dependencies of the computation graph (DAG) constructed, Fugue 
 
 Through this DAG, Fugue can also perform validations (such as schema and partitioning) that allow code to fail quickly. Fugue will recognize if the schema is mismatched for future operations, and error out immediately. A lot of Spark users often spend a lot of money and time running code on a cluster, only to find out hours later that it failed. **Having Fugue’s DAG compiling process helps users avoid expensive mistakes**.
 
-# SQL Interface
+## SQL Interface
 
 _How can SQL be elevated to a first-class grammar for compute workflows?_
 
@@ -222,7 +222,7 @@ There is also a notebook extension with syntax highlighting that allows users to
 
 ![](https://miro.medium.com/v2/resize:fit:1400/0*cJ-fIBcMUhYlU17O)
 
-# Partitioning
+## Partitioning
 
 _Are there better ways to partition data for certain use cases?_
 
