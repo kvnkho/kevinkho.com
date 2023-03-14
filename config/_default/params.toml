@@ -44,7 +44,7 @@ schemaImageHeight = 455 # Height of the above image
 # Show social links in footer, home hero section, or about page
 footer_socials = true
 home_hero_socials = false
-about_page_socials = false
+about_page_socials = true
 
 # Enable or disable individual social icons
 [social.links]
