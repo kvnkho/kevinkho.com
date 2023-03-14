@@ -117,6 +117,6 @@ If you’re interested in using FugueSQL, want to give us feedback, or have any 
 
 [Project Repo](https://github.com/fugue-project/fugue)
 
-[Slack channel](https://join.slack.com/t/fugue-project/shared_invite/zt-jl0pcahu-KdlSOgi~fP50TZWmNxdWYQ)
+[Slack channel](http://slack.fugue.ai)
 
 FugueSQL is just one part of the broader Fugue ecosystem. Fugue is an abstraction layer that allows users to write code in native Python, and then execute the code on Pandas, Spark, or Dask without code changes during runtime. More information can be found in the repo above.
