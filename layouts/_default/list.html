@@ -2,21 +2,6 @@
 <div class="container">
   <section class="page-header--c">
     <h1 class="page-header-title">{{ .Title }}</h1>
-    <p class="page-header-desc">
-      {{- with .Params.Summary -}}
-        {{- . -}}
-      {{- else -}}
-        {{- with .Description -}}
-          {{- . -}}
-        {{- else -}}
-          {{- if eq .Data.Plural "series" -}}
-            Posts in the {{ .Title }} series.
-          {{- else -}}
-            Posts about {{ .Title }}.
-          {{- end -}}
-        {{- end -}}
-      {{- end -}}
-    </p>
   </section>
   <section>
     {{ range (.Paginate .RegularPagesRecursive).Pages }}

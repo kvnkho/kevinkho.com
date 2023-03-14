@@ -11,10 +11,6 @@ I am always happy to chat about anything data related! I can specifically help w
 * reviewing conference proposals
 * career advice or portfolio advice for people breaking into the data industry
 
-I am also specifically looking for the following opportunities:
-* adjunct lecturer positions at a university
-* creating courses around big data
-
 Email: kdykho@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/kvnkho
