@@ -3,12 +3,17 @@
   <section class="section hero">
     <div class="hero-info">
       <h1 class="hero-title">{{ .Title }}</h1>
-      {{ with .Params.subtitle }}
+      <!-- {{ with .Params.subtitle }}
         <p class="hero-subtitle">{{.}}</p>
-      {{ end }}
+      {{ end }} -->
+      <div class="hero-subtitle">
+        {{ .Content }}
+      </div>
       <div class="hero-btns">
         <a class="btn-primary" href="{{ "about/" | relURL }}">About</a>
         <a class="btn-secondary" href="{{ "projects/" | relURL }}">Projects</a>
+        <a class="btn-primary" href="{{ "blogs/" | relURL }}">Blogs</a>
+        <a class="btn-secondary" href="{{ "talks/" | relURL }}">Talks</a>
       </div>
     </div>
     <div class="hero-owner">
@@ -20,7 +25,7 @@
       {{ else }}
         {{ $image = resources.Get $default_image }}
       {{ end }}
-      {{ $image = $image | images.Filter (images.Grayscale)  }}
+      {{ $image = $image }}
       <img class="hero-avatar"
             src="{{ $image.RelPermalink }}"
             width="300" height="300"
