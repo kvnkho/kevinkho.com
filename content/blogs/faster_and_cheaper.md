@@ -14,7 +14,7 @@ toc: true
 
 ![](https://miro.medium.com/v2/resize:fit:1400/0*3AUfdpKp-qGXScqL)
 
-Photo by  [Ocean Ng](https://unsplash.com/@oceanng?utm_source=medium&utm_medium=referral)  on  [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+Photo by [Ocean Ng](https://unsplash.com/@oceanng?utm_source=medium&utm_medium=referral)  on  [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
 [Fugue](https://github.com/fugue-project/fugue)  is an open-source library that provides a unified interface for Pandas, Spark, and Dask DataFrames. In this article, we will show how Fugue can accelerate the development of big data projects by  **decreasing compute costs and by increasing developer productivity.**
 
@@ -28,15 +28,11 @@ First, we’ll look at a motivating example where we have a pandas DataFrame wit
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*I13paUzQ2DoW4OEH_HgRqw.png)
 
-Setting up the DataFrame
-
 **Pandas implementation**
 
 Pandas has a very elegant solution for this. We can use the  `map()`  method of the  `phone`  column.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*sZXKqJXQ-zTJCgM8bLvybQ.png)
-
-Using the Pandas map method
 
 This yields the following DataFrame:
 
@@ -71,13 +67,9 @@ For the example above, we can wrap the Pandas code into a function. There is not
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*NzfsKCwBX1Dw2yyv3rIFXA.png)
 
-Wrapping pandas code in a function
-
 But just by doing this, we can now bring it to Spark and Dask using the  `transform`  function of Fugue. The example below is to bring it to Spark.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*KueCX_uNklfkJ8Itv_rVVw.png)
-
-Using Fugue transform
 
 This will return a Spark DataFrame (and can take in both Pandas and Spark input DataFrames). To use the  `map_phone_to_city`  function on Pandas, users can simply use the default`engine`. The  `schema`  argument is the output schema of the operation, a requirement for distributed computing frameworks. Similarly, there is a DaskExecutionEngine for Dask execution.
 
@@ -86,8 +78,6 @@ This will return a Spark DataFrame (and can take in both Pandas and Spark input 
 Now with this  `transform`  function, we can use the  `map_phone_to_city`  function on Pandas, Spark, and Dask. The logic is decoupled from the execution engine. Some readers may be wondering if the  `map_phone_to_city`  function is still tied to Pandas, and they would be right. If we wanted to implement it in pure native Python, we could use lists and dictionaries like in the code below.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*Wz58bQckasrM6EQB6_fRuw.png)
-
-Pure native Python Implementation
 
 This can be used by Fugue across Pandas, Spark, and Dask with the same  `transform`  call. Fugue will handle the conversion of the DataFrame to the type annotations specified. Here, we use the  `get()`  method of the  `_area_code_map`  dictionary and specify a default value “Unknown”. Again this can be brought to Spark by doing:
 
