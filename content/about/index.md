@@ -56,5 +56,5 @@ I am involved in some other things:
 * [Orlando Machine Learning and Data Science](https://www.meetup.com/orlando-mlds/) - I organized/co-organized this Meetup for 4 years
 * [Adventurous Analytics](https://www.adventurousanalytics.com/) - I advise non-profit data science consulting projects, primarily around the Florida foster care system
 * Conference Involvement:
-  * SciPy 2022 Data Life Cycle Track Co-chair
-  * PyData Seattle 2023 Volunteer
+  * [SciPy 2022](https://www.scipy2022.scipy.org/) Data Life Cycle Track Co-chair
+  * [PyData Seattle 2023](https://pydata.org/seattle2023/) Volunteer
