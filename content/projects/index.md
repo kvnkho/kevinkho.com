@@ -2,8 +2,6 @@
 title: Projects
 ---
 
-List of my public facing work.
-
 ## Open-Source
 
 ![img](/images/projects/fugue.png)
