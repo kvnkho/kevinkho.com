@@ -1,9 +1,9 @@
 ---
-title: Creating Pandas and Spark Compatible Functions with Fugue
-seo_title: Creating Pandas and Spark Compatible Functions with Fugue
-summary: Seamlessly change between Pandas and Spark with one line of code
-description: Seamlessly change between Pandas and Spark with one line of code
-slug: pandas_spark_compatible
+title: Interoperable Python and SQL in Jupyter Notebooks
+seo_title: Interoperable Python and SQL in Jupyter Notebooks
+summary: Using SQL on top of Pandas, Spark, and Dask
+description: Using SQL on top of Pandas, Spark, and Dask
+slug: interoperable_sql_and_python
 author: Kevin Kho
 
 draft: false
