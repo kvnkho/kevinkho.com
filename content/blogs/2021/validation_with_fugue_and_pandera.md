@@ -7,7 +7,7 @@ slug: validation_with_pandera_and_fugue
 author: Kevin Kho
 
 draft: false
-date: 2021-05-08T21:21:46-05:00
+date: 2021-04-18T21:21:46-05:00
 
 toc: true
 ---
