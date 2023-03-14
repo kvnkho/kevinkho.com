@@ -34,8 +34,6 @@ First, we start by making a simple  **LinearRegression**  model.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*qJcOuC5DnW9eBl8E6WICRA.png)
 
-Simple Linear Regression
-
 And then we make a simple  **predict**  function that will take in a DataFrame and create a new column called “**predicted”**  with the predictions. This part is nothing new for Pandas users.
 
 ![](https://miro.medium.com/v2/resize:fit:1400/1*JWobeYZ37MeyjKn8yfSGLQ.png)
@@ -80,10 +78,7 @@ For one function, we already had to write a lot of boilerplate code in the Spark
 
 If you are interested in learning more about Fugue, distributed computing, or how to use Spark in a simpler way, feel free to reach out! The content covered here is just the starting point. The Fugue team is giving full workshops and demos to data teams and would love to chat with you.
 
-[Github Repo](https://github.com/fugue-project/fugue)
-
-[Slack](https://join.slack.com/t/fugue-project/shared_invite/zt-jl0pcahu-KdlSOgi~fP50TZWmNxdWYQ)
-
-[Fugue Tutorials](https://fugue-tutorials.readthedocs.io/en/latest/tutorials/beginner/index.html)
-
-Email: hello@fugue.ai
+* [Github Repo](https://github.com/fugue-project/fugue)
+* [Slack](https://join.slack.com/t/fugue-project/shared_invite/zt-jl0pcahu-KdlSOgi~fP50TZWmNxdWYQ)
+* [Fugue Tutorials](https://fugue-tutorials.readthedocs.io/en/latest/tutorials/beginner/index.html)
+* Email: hello@fugue.ai
