@@ -13,7 +13,7 @@ I am currently contracting part time with [Citi](https://www.citi.com/) helping 
 
 :mailbox_with_no_mail:&nbsp;&nbsp;&nbsp;&nbsp;**Contact me!**
 
-Feel free to reach out to me for anything data related. I talk to people about big data, data artichecture, data engineering, and career advice. Always happy to speak at meetups or company knowledge sharings about the things I'm working on. More info in the [Contact](/contact/) section.
+Feel free to reach out to me for anything data related. I talk to people about big data, data artichitecture, data engineering, and career advice. Always happy to speak at meetups or company knowledge sharings about the things I'm working on. More info in the [Contact](/contact/) section.
 
 Email: kdykho@gmail.com
 
@@ -45,7 +45,7 @@ Here are a few talks about Fugue, Prefect, and distributed computing. The full l
 
 :microphone:&nbsp;&nbsp;&nbsp;&nbsp;**Podcasts**
 
-* [Data Engineeing Podcast - Build Your Python Data Processing Your Way And Run It Anywhere With Fugue](https://www.dataengineeringpodcast.com/fugue-python-data-processing-episode-266/)
+* [Data Engineering Podcast - Build Your Python Data Processing Your Way And Run It Anywhere With Fugue](https://www.dataengineeringpodcast.com/fugue-python-data-processing-episode-266/)
 
 
 :blue_heart:&nbsp;&nbsp;&nbsp;&nbsp;**Community**
