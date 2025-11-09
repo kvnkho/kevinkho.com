@@ -24,14 +24,16 @@ enableEmoji = true # Use Emojis in content
 enableGitInfo = false # Default, enable to use git for lastmod (can be overwritten in frontmatter)
 enableInlineShortcodes = false # Default, false is more security-friendly
 ignoreFiles = [] # Default
-# newContentEditor = 'code' # Set VS Code as default editor
-paginate = 10 # Default
-paginatePath = 'page' # Default
+# newContentEditor = 'code' # Set VS Code as default
 pluralizeListTitles = true # Default
 publishDir = 'public' # Default
 relativeURLs = false # Default
 summaryLength = 70 # Default
 titleCaseStyle = 'AP' # Default, other options: Chicago (slightly different) or Go (all first letters capitalized)
+
+[pagination]
+pagerSize = 10 # Default
+path = 'page' # Default
 
 ### Other
 archetypeDir = 'archetypes' # Default

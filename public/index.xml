@@ -1,11 +1,131 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kevin Kho</title>
-    <link>https://kevin-kho.onrender.com/</link>
-    <description>Recent content on Kevin Kho</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 04 Oct 2022 21:21:46 -0500</lastBuildDate><atom:link href="https://kevin-kho.onrender.com/index.xml" rel="self" type="application/rss+xml" />
+    <title>Big Data, Open-Source, and Machine Learning Engineering on Kevin Kho</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Big Data, Open-Source, and Machine Learning Engineering on Kevin Kho</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Jan 2023 21:21:46 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Large Scale Image Processing with Spark through Fugue</title>
+      <link>http://localhost:1313/blogs/2023/image_processing/</link>
+      <pubDate>Sun, 15 Jan 2023 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2023/image_processing/</guid>
+      <description>How Clobotics Runs Distributed Image Processing</description>
+    </item>
+    <item>
+      <title>Large Scale Data Profiling with whylogs and Fugue on Spark, Ray or Dask</title>
+      <link>http://localhost:1313/blogs/2022/whylogs_fugue/</link>
+      <pubDate>Tue, 04 Oct 2022 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2022/whylogs_fugue/</guid>
+      <description>Profiling large-scale data for use cases such as anomaly detection, drift detection, and data validation</description>
+    </item>
+    <item>
+      <title>Why SQL-Like Interfaces are Sub-optimal for Distributed Computing</title>
+      <link>http://localhost:1313/blogs/2022/sql_limitations/</link>
+      <pubDate>Tue, 23 Aug 2022 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2022/sql_limitations/</guid>
+      <description>Examining the limitations of the SQL interface</description>
+    </item>
+    <item>
+      <title>Why Pandas-like Interfaces are Sub-optimal for Distributed Computing</title>
+      <link>http://localhost:1313/blogs/2022/pandas_limitations/</link>
+      <pubDate>Tue, 07 Jun 2022 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2022/pandas_limitations/</guid>
+      <description>A deep look at the assumptions of the Pandas interface</description>
+    </item>
+    <item>
+      <title>Introducing Fugue — Reducing PySpark Developer Friction</title>
+      <link>http://localhost:1313/blogs/2022/introducing_fugue/</link>
+      <pubDate>Mon, 14 Feb 2022 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2022/introducing_fugue/</guid>
+      <description>Increase developer productivity and decrease costs for big data projects</description>
+    </item>
+    <item>
+      <title>Scaling PyCaret with Spark (or Dask) through Fugue</title>
+      <link>http://localhost:1313/blogs/2022/scaling_pycaret/</link>
+      <pubDate>Thu, 06 Jan 2022 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2022/scaling_pycaret/</guid>
+      <description>Run PyCaret functions on each partition of data distributedly</description>
+    </item>
+    <item>
+      <title>Delivering Spark Big Data Projects Faster and Cheaper with Fugue</title>
+      <link>http://localhost:1313/blogs/2021/faster_and_cheaper/</link>
+      <pubDate>Mon, 08 Nov 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/faster_and_cheaper/</guid>
+      <description>Increase developer productivity and decrease compute usage for big data projects</description>
+    </item>
+    <item>
+      <title>Using FugueSQL on Spark DataFrames with Databricks</title>
+      <link>http://localhost:1313/blogs/2021/fugue_sql_databricks/</link>
+      <pubDate>Fri, 05 Nov 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/fugue_sql_databricks/</guid>
+      <description>Connecting FugueSQL with Databricks Connect</description>
+    </item>
+    <item>
+      <title>The Simple Guide to Productionizing Data Workflows with Docker</title>
+      <link>http://localhost:1313/blogs/2021/productionining_data_docker/</link>
+      <pubDate>Thu, 09 Sep 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/productionining_data_docker/</guid>
+      <description>An intro to Python packaging and Docker</description>
+    </item>
+    <item>
+      <title>Seamlessly Porting Python and Pandas Functions to Spark</title>
+      <link>http://localhost:1313/blogs/2021/porting_python_to_spark/</link>
+      <pubDate>Mon, 09 Aug 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/porting_python_to_spark/</guid>
+      <description>We can do this the easy way, or the hard way</description>
+    </item>
+    <item>
+      <title>Using Pandera on Spark for Data Validation through Fugue</title>
+      <link>http://localhost:1313/blogs/2021/validation_with_pandera_and_fugue/</link>
+      <pubDate>Sat, 08 May 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/validation_with_pandera_and_fugue/</guid>
+      <description>How to bring Pandas libraries to Spark and Dask with Fugue</description>
+    </item>
+    <item>
+      <title>Interoperable Python and SQL in Jupyter Notebooks</title>
+      <link>http://localhost:1313/blogs/2021/interoperable_sql_and_python/</link>
+      <pubDate>Sun, 18 Apr 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/interoperable_sql_and_python/</guid>
+      <description>Using SQL on top of Pandas, Spark, and Dask</description>
+    </item>
+    <item>
+      <title>Interoperable Python and SQL in Jupyter Notebooks</title>
+      <link>http://localhost:1313/blogs/2021/interoperable_python_sql/</link>
+      <pubDate>Fri, 19 Mar 2021 21:21:46 -0500</pubDate>
+      <guid>http://localhost:1313/blogs/2021/interoperable_python_sql/</guid>
+      <description>Using SQL on top of Pandas, Spark, and Dask</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hello! 👋&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;My name is Kevin Kho. I am currently working on &lt;a href=&#34;https://github.com/fugue-project/fugue/&#34;&gt;Fugue&lt;/a&gt;, a minimal interface to bring Python, Pandas, and SQL code to Spark, Dask, and Ray. Most recently, I was at &lt;a href=&#34;https://github.com/PrefectHQ/prefect&#34;&gt;Prefect&lt;/a&gt; as an Open Source Community Engineer where I managed the Slack community and created content. Before working on open-source tooling, I was a data scientist for four years across &lt;a href=&#34;https://www.paylocity.com/&#34;&gt;Paylocity&lt;/a&gt; and &lt;a href=&#34;https://www.itron.com/&#34;&gt;Itron&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I am currently contracting part time with &lt;a href=&#34;https://www.citi.com/&#34;&gt;Citi&lt;/a&gt; helping them scale compute workflows to distributed computing. I am looking for more contract opportunities around big data and machine learning platforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s chat!</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;I am always happy to chat about anything data related! I can specifically help with:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;contracting around big data engineering, machine learning platforms, and self-serve analytics.&lt;/li&gt;&#xA;&lt;li&gt;speaking about my work at meetups, company lunch and learn, or informal chats&lt;/li&gt;&#xA;&lt;li&gt;reviewing conference proposals&lt;/li&gt;&#xA;&lt;li&gt;career advice or portfolio advice for people breaking into the data industry&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Email: &lt;a href=&#34;mailto:kdykho@gmail.com&#34;&gt;kdykho@gmail.com&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;LinkedIn: &lt;a href=&#34;https://www.linkedin.com/in/kvnkho&#34;&gt;https://www.linkedin.com/in/kvnkho&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;If you are in Chicago, I am happy to meet in person also.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&lt;h2 id=&#34;open-source&#34;&gt;Open-Source&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/projects/fugue.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/fugue-project/fugue&#34;&gt;Fugue&lt;/a&gt; is a unified interface for distributed computing. Fugue executes SQL, Python, and Pandas code on Spark, Dask and Ray without any rewrites. I primarily write content, speak at conferences, and maintain the &lt;a href=&#34;https://fugue-tutorials.readthedocs.io/&#34;&gt;tutorials&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/projects/prefect.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/PrefectHQ/prefect&#34;&gt;Prefect&lt;/a&gt; is a Python-based workflow orchestration management system that schedules and monitors data pipelines. I worked for a year and a couple months at Prefect focused on open-source support, developer education, and some small pull requests.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>http://localhost:1313/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/talks/</guid>
+      <description>Podcasts, Conferences, and Tutorials</description>
+    </item>
   </channel>
 </rss>
