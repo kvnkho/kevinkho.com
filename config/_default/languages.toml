@@ -1,1 +1,4 @@
-# Languages / i18n config (coming in a future release)
+# Languages / i18n config
+[en]
+  languageName = "English"
+  weight = 1
