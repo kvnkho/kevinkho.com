@@ -29,9 +29,9 @@ const projects = [
 
 const recentPosts = [
   {
-    title: 'New Blog - In Time for the New Year',
-    date: 'December 2025',
-    link: '/blog/new-stack',
+    title: 'Migrating to an AI-Friendly Blog Stack',
+    date: 'January 2026',
+    link: '/blog/new-blog-stack',
   },
   {
     title: 'Using AI to Generate 1,000 Compliance Tests',
