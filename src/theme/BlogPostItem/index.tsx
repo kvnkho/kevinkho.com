@@ -23,6 +23,7 @@ function BlogPostThumbnail(): ReactNode {
 
   // Prefer assets.image (bundler-processed) over frontMatter.image
   const image = assets.image ?? frontMatter.image;
+  const imageLocation = (frontMatter as {image_location?: string}).image_location;
 
   if (!image) {
     return null;
@@ -35,6 +36,9 @@ function BlogPostThumbnail(): ReactNode {
         alt={metadata.title}
         className={styles.thumbnail}
       />
+      {imageLocation && (
+        <span className={styles.imageLocation}>{imageLocation}</span>
+      )}
     </div>
   );
 }
