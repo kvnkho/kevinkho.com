@@ -5,8 +5,7 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "npm install",
-  "postStartCommand": "npm start -- --host 0.0.0.0",
+  "postCreateCommand": "npm install && npm i -g @anthropic-ai/claude-code",
   "customizations": {
     "vscode": {
       "extensions": [
