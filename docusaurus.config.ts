@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Kevin Kho',
-  tagline: 'Senior AI Engineer at Drata',
+  tagline: 'AI/ML Engineer. Most recently at Drata.',
   favicon: 'img/favicon.svg',
 
   future: {
