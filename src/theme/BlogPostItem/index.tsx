@@ -14,12 +14,7 @@ function useContainerClassName() {
 }
 
 function BlogPostThumbnail(): ReactNode {
-  const {assets, frontMatter, isBlogPostPage, metadata} = useBlogPost();
-
-  // Only show thumbnail on listing page, not on individual post page
-  if (isBlogPostPage) {
-    return null;
-  }
+  const {assets, frontMatter, metadata} = useBlogPost();
 
   // Prefer assets.image (bundler-processed) over frontMatter.image
   const image = assets.image ?? frontMatter.image;
