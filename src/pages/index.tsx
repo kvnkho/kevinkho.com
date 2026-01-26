@@ -55,8 +55,10 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <p className={styles.heroDescription}>
-          Building data infrastructure and AI systems. Co-author of Fugue,
-          former Prefect OSS Community Engineer. Based in Los Angeles.
+          Building data infrastructure and AI systems. Co-author of{' '}
+          <a href="https://github.com/fugue-project/fugue/">Fugue</a>, former{' '}
+          <a href="https://github.com/PrefectHQ/prefect">Prefect</a> OSS Community
+          Engineer. Based in Los Angeles.
         </p>
         <div className={styles.buttons}>
           <Link className="button button--primary button--lg" to="/about">
