@@ -115,20 +115,6 @@ export default function Home(): ReactNode {
       <main>
         <section className={styles.section}>
           <div className="container">
-            <Heading as="h2">Featured Projects</Heading>
-            <div className={styles.projectsGrid}>
-              {projects.map((project) => (
-                <ProjectCard key={project.title} {...project} />
-              ))}
-            </div>
-            <div className={styles.seeMore}>
-              <Link to="/projects/intro">See all projects &rarr;</Link>
-            </div>
-          </div>
-        </section>
-
-        <section className={styles.section}>
-          <div className="container">
             <Heading as="h2">Recent Writing</Heading>
             <div className={styles.blogGrid}>
               {recentPosts.map((post) => (
@@ -137,6 +123,20 @@ export default function Home(): ReactNode {
             </div>
             <div className={styles.seeMore}>
               <Link to="/blog">Read all posts &rarr;</Link>
+            </div>
+          </div>
+        </section>
+
+        <section className={styles.section}>
+          <div className="container">
+            <Heading as="h2">Featured Projects</Heading>
+            <div className={styles.projectsGrid}>
+              {projects.map((project) => (
+                <ProjectCard key={project.title} {...project} />
+              ))}
+            </div>
+            <div className={styles.seeMore}>
+              <Link to="/projects/intro">See all projects &rarr;</Link>
             </div>
           </div>
         </section>
