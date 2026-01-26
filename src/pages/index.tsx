@@ -108,7 +108,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Home"
-      description="Kevin Kho - Senior AI Engineer at Drata. Building data infrastructure and AI systems.">
+      description="Kevin Kho - AI/ML Engineer. Building data infrastructure and AI systems.">
       <HomepageHeader />
       <main>
         <section className={styles.section}>
