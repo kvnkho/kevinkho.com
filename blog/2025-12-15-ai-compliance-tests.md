@@ -4,7 +4,8 @@ title: "Using AI to Generate 1,000 Compliance Tests: What Actually Worked"
 authors: [kevin]
 tags: [ai, compliance, drata, llm]
 description: How the Drata team built an AI system to automatically generate 1,000+ compliance tests using Claude, RAG, and a multi-stage pipeline.
-image: https://framerusercontent.com/images/loy2IIYGmMCAW4aOntVYuG5R9k.jpg
+image: /img/blog/using-ai-to-generate-1000-compliance-tests-thumbnail.png
+image_location: Yardstick Coffee, Los Angeles
 ---
 
 How the Drata team went from "just pass it to Claude" to a multi-stage pipeline that automates months of engineering work.
