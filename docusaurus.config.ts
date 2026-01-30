@@ -64,15 +64,22 @@ const config: Config = {
     navbar: {
       title: 'Kevin Kho',
       items: [
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          type: 'docSidebar',
-          sidebarId: 'mainSidebar',
+          type: 'dropdown',
+          label: 'Blog',
           position: 'left',
-          label: 'Projects',
+          items: [
+            {label: 'AI', to: '/blog/tags/ai'},
+            {label: 'Drata', to: '/blog/tags/drata'},
+            {label: 'Fugue', to: '/blog/tags/fugue'},
+            {label: 'Prefect', to: '/blog/tags/prefect'},
+          ],
+          // Ordered by most recent post: AI (Jan 2026), Drata (Dec 2025), Fugue (Jan 2023), Prefect (Sept 2021)
         },
+        {to: '/intro', label: 'Projects', position: 'left'},
         {to: '/talks/intro', label: 'Talks', position: 'left'},
         {to: '/experience', label: 'Experience', position: 'left'},
+        {to: '/blog', label: 'Recent', position: 'left'},
         {
           href: 'https://kevinkho.com/articles/rss.xml',
           label: 'RSS',
