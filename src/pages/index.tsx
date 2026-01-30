@@ -50,7 +50,7 @@ export default function Home(): ReactNode {
 
           <Heading as="h2" className={styles.sectionTitle}>Speaking & Teaching</Heading>
           <p>
-            I speak at conferences including PyCon and SciPy, and create courses on distributed computing for platforms like O'Reilly. See my <Link to="/talks">talks</Link>.
+            I speak at conferences including PyCon and SciPy, and create courses on distributed computing for platforms like O'Reilly. See my <Link to="/talks/intro">talks</Link>.
           </p>
         </div>
       </main>

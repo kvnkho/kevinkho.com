@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /intro
+title: Projects
 ---
 
 # Projects
@@ -11,17 +11,17 @@ A collection of projects I've worked on, from open source contributions to profe
 
 Building tools that help data teams work more efficiently:
 
-- **[Fugue](/projects/fugue)** - Unified interface for distributed computing
-- **[Prefect](/projects/prefect)** - Workflow orchestration contributions
+- **[Fugue](/fugue)** - Unified interface for distributed computing
+- **[Prefect](/prefect)** - Workflow orchestration contributions
 
 ## Professional
 
 Current and past professional work:
 
-- **[Drata](/projects/drata)** - AI-powered compliance automation
+- **[Drata](/drata)** - AI-powered compliance automation
 
 ## Education
 
 Teaching and course creation:
 
-- **[Courses](/projects/courses)** - O'Reilly courses and educational content
+- **[Courses](/courses)** - O'Reilly courses and educational content

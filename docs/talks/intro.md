@@ -9,9 +9,9 @@ Most of my conference talks are about workflow orchestration with [Prefect](http
 
 ## Overview
 
-- [Podcasts](./podcasts) - Podcast appearances
-- [Conferences](./conferences) - Conference presentations
-- [Tutorials](./tutorials) - Workshops and educational content
+- [Podcasts](/talks/podcasts) - Podcast appearances
+- [Conferences](/talks/conferences) - Conference presentations
+- [Tutorials](/talks/tutorials) - Workshops and educational content
 
 ---
 
