@@ -1,0 +1,57 @@
+# Kevin Kho - Personal Website
+
+> AI/ML Engineer building data infrastructure and AI systems. Based in Los Angeles.
+
+## About
+
+Kevin Kho is a Senior AI Engineer at Drata (via Harmonize acquisition), building AI-powered compliance automation. Previously Open Source Community Engineer at Prefect and co-author of Fugue.
+
+## Site Structure
+
+- `/` - About page with bio and background
+- `/blog` - Articles organized by category (AI, Drata, Fugue, Prefect)
+- `/articles` - All articles in chronological order
+- `/projects` - Open source and professional projects
+- `/talks` - Conference talks, podcasts, and tutorials
+
+## Blog Categories
+
+### AI
+Articles about AI agents, LLMs, and AI-powered development.
+
+### Drata
+Work on AI-powered compliance automation at Drata.
+
+### Fugue
+Distributed computing with the Fugue library - unified interface for Spark, Dask, and Ray.
+
+### Prefect
+Workflow orchestration and data pipeline development.
+
+## Key Articles
+
+- Migrating to an AI-Friendly Blog Stack (Jan 2026)
+- Using AI to Generate 1,000 Compliance Tests (Dec 2025)
+- Large Scale Image Processing with Spark (Jan 2023)
+- Introducing Fugue (Feb 2022)
+
+## Projects
+
+### Open Source
+- **Fugue** - Unified interface for distributed computing across Spark, Dask, and Ray
+- **Prefect** - Workflow orchestration contributions
+
+### Professional
+- **Drata** - AI-powered compliance automation
+
+## Contact
+
+- GitHub: https://github.com/kvnkho
+- LinkedIn: https://linkedin.com/in/kvnkho
+- Email: kdykho@gmail.com
+
+## Technical Details
+
+- Built with Docusaurus
+- Source: https://github.com/kvnkho/kevinkho.com
+- RSS Feed: /articles/rss.xml
