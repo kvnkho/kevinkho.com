@@ -59,15 +59,26 @@ const config: Config = {
     navbar: {
       title: 'Kevin Kho',
       items: [
-        {to: '/about', label: 'About', position: 'left'},
+        {
+          label: 'Blog',
+          position: 'left',
+          items: [
+            {label: 'AI', to: '/blog/tags/ai'},
+            {label: 'Drata', to: '/blog/tags/drata'},
+            {label: 'Fugue', to: '/blog/tags/fugue'},
+            {label: 'Prefect', to: '/blog/tags/prefect'},
+          ],
+          // Ordered by most recent post: AI (Jan 2026), Drata (Dec 2025), Fugue (Jan 2023), Prefect (Sept 2021)
+        },
         {
           type: 'docSidebar',
           sidebarId: 'projectsSidebar',
           position: 'left',
           label: 'Projects',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {to: '/talks', label: 'Talks', position: 'left'},
+        {to: '/about', label: 'About', position: 'left'},
+        {to: '/blog', label: 'Recent', position: 'left'},
         {
           href: 'https://github.com/kvnkho',
           label: 'GitHub',
