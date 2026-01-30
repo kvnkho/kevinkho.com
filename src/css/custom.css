@@ -1,31 +1,29 @@
 /**
  * Custom CSS for kevinkho.com
- * Hokusai-inspired design
+ * Japanese-inspired minimalist design
  */
 
 /* Color palette */
 :root {
-  /* Hokusai-inspired colors */
-  --color-hokusai-deep: #2E3257;      /* Deep indigo - primary */
-  --color-hokusai-wave: #627D9A;      /* Medium blue - secondary */
-  --color-hokusai-sky: #19869C;       /* Teal accent - hover states */
-  --color-hokusai-cream: #FFFEF7;     /* Off-white - light bg */
-  --color-hokusai-sand: #DFC5A4;      /* Warm sand - accents */
-  --color-hokusai-navy: #171F40;      /* Deep navy - dark bg */
+  /* Japanese-inspired colors */
+  --color-warm-white: #faf9f6;
+  --color-soft-black: #1a1a1a;
+  --color-vermillion: #c1554d;
+  --color-sage-green: #5b8a72;
 
   /* Infima overrides - light mode */
-  --ifm-color-primary: #2E3257;
-  --ifm-color-primary-dark: #282d4e;
-  --ifm-color-primary-darker: #262a49;
-  --ifm-color-primary-darkest: #1f233c;
-  --ifm-color-primary-light: #343860;
-  --ifm-color-primary-lighter: #363b65;
-  --ifm-color-primary-lightest: #3e4372;
+  --ifm-color-primary: #5b8a72;
+  --ifm-color-primary-dark: #517b66;
+  --ifm-color-primary-darker: #4c7460;
+  --ifm-color-primary-darkest: #3f604f;
+  --ifm-color-primary-light: #6a9a81;
+  --ifm-color-primary-lighter: #72a188;
+  --ifm-color-primary-lightest: #8bb49d;
 
-  --ifm-background-color: var(--color-hokusai-cream);
-  --ifm-font-color-base: var(--color-hokusai-deep);
-  --ifm-link-color: var(--color-hokusai-deep);
-  --ifm-link-hover-color: var(--color-hokusai-sky);
+  --ifm-background-color: var(--color-warm-white);
+  --ifm-font-color-base: var(--color-soft-black);
+  --ifm-link-color: var(--color-sage-green);
+  --ifm-link-hover-color: var(--color-vermillion);
 
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -40,19 +38,19 @@
 
 /* Dark mode */
 [data-theme='dark'] {
-  --ifm-color-primary: #627D9A;
-  --ifm-color-primary-dark: #56708c;
-  --ifm-color-primary-darker: #506a85;
-  --ifm-color-primary-darkest: #42576e;
-  --ifm-color-primary-light: #6e8aa8;
-  --ifm-color-primary-lighter: #7490af;
-  --ifm-color-primary-lightest: #8ba3bd;
+  --ifm-color-primary: #8bb49d;
+  --ifm-color-primary-dark: #78a98d;
+  --ifm-color-primary-darker: #6fa385;
+  --ifm-color-primary-darkest: #5b8a72;
+  --ifm-color-primary-light: #9ec0ad;
+  --ifm-color-primary-lighter: #a7c6b4;
+  --ifm-color-primary-lightest: #c0d7cb;
 
-  --ifm-background-color: var(--color-hokusai-navy);
-  --ifm-background-surface-color: #1E2650;
-  --ifm-font-color-base: var(--color-hokusai-cream);
-  --ifm-link-color: var(--color-hokusai-wave);
-  --ifm-link-hover-color: var(--color-hokusai-sky);
+  --ifm-background-color: #1a1a1a;
+  --ifm-background-surface-color: #242424;
+  --ifm-font-color-base: #e8e6e3;
+  --ifm-link-color: #8bb49d;
+  --ifm-link-hover-color: #d4847d;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
@@ -80,21 +78,16 @@
   font-size: 0.9rem;
 }
 
-/* Footer styling */
+/* Minimal footer */
 .footer {
-  background-color: var(--color-hokusai-navy);
+  background: transparent;
+  padding: 1rem 0;
+  text-align: center;
 }
 
-.footer__title {
-  color: var(--color-hokusai-cream);
-}
-
-.footer__link-item {
-  color: rgba(255, 254, 247, 0.8);
-}
-
-.footer__link-item:hover {
-  color: var(--color-hokusai-sky);
+.footer__copyright {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
 }
 
 /* Article/content styling */
@@ -108,54 +101,22 @@ article {
 }
 
 .hero__subtitle {
-  color: var(--color-hokusai-wave);
+  color: var(--color-sage-green);
 }
 
 [data-theme='dark'] .hero__subtitle {
-  color: var(--color-hokusai-wave);
+  color: #8bb49d;
 }
 
 /* Button styling */
 .button--primary {
-  background-color: var(--color-hokusai-deep);
-  border-color: var(--color-hokusai-deep);
+  background-color: var(--color-sage-green);
+  border-color: var(--color-sage-green);
 }
 
 .button--primary:hover {
-  background-color: var(--color-hokusai-sky);
-  border-color: var(--color-hokusai-sky);
-}
-
-[data-theme='dark'] .button--primary {
-  background-color: var(--color-hokusai-wave);
-  border-color: var(--color-hokusai-wave);
-}
-
-[data-theme='dark'] .button--primary:hover {
-  background-color: var(--color-hokusai-sky);
-  border-color: var(--color-hokusai-sky);
-}
-
-.button--secondary {
-  color: var(--color-hokusai-deep);
-  border-color: var(--color-hokusai-deep);
-}
-
-.button--secondary:hover {
-  color: var(--color-hokusai-cream);
-  background-color: var(--color-hokusai-sky);
-  border-color: var(--color-hokusai-sky);
-}
-
-[data-theme='dark'] .button--secondary {
-  color: var(--color-hokusai-wave);
-  border-color: var(--color-hokusai-wave);
-}
-
-[data-theme='dark'] .button--secondary:hover {
-  color: var(--color-hokusai-cream);
-  background-color: var(--color-hokusai-sky);
-  border-color: var(--color-hokusai-sky);
+  background-color: var(--color-vermillion);
+  border-color: var(--color-vermillion);
 }
 
 /* Card styling for projects */
