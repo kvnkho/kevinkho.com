@@ -6,6 +6,9 @@ import Heading from '@theme/Heading';
 import styles from './blog.module.css';
 
 const blogsByCategory = {
+  Career: [
+    {title: 'Job Advice in Data and AI', link: '/articles/job-advice-data-ai', date: 'Jan 2026'},
+  ],
   AI: [
     {title: 'Migrating to an AI-Friendly Blog Stack', link: '/articles/new-blog-stack', date: 'Jan 2026'},
   ],
