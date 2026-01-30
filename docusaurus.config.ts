@@ -74,7 +74,7 @@ const config: Config = {
         {to: '/talks/intro', label: 'Talks', position: 'left'},
         {to: '/experience', label: 'Experience', position: 'left'},
         {
-          href: '/articles/rss.xml',
+          href: 'https://kevinkho.com/articles/rss.xml',
           label: 'RSS',
           position: 'right',
         },
