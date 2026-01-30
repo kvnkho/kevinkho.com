@@ -18,11 +18,6 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Professional',
-          items: ['drata'],
-        },
-        {
-          type: 'category',
           label: 'Education',
           items: ['courses'],
         },
