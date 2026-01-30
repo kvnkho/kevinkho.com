@@ -36,6 +36,6 @@ My approach to education focuses on:
 
 ## Want to Learn More?
 
-- Check out my [talks](/talks) for conference presentations
+- Check out my [talks](/talks/intro) for conference presentations
 - Read my [blog](/blog) for written tutorials
 - Find course materials on [O'Reilly](https://www.oreilly.com/)
