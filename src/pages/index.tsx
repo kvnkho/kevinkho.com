@@ -14,18 +14,25 @@ export default function Home(): ReactNode {
       description="Kevin Kho - AI/ML Engineer. Building data infrastructure and AI systems.">
       <main className={styles.container}>
         <Heading as="h1" className={styles.name}>{siteConfig.title}</Heading>
+        <p className={styles.location}>📍 Glendale, CA</p>
 
         <div className={styles.bio}>
           <p>
-            I build data infrastructure and AI systems. Based in Los Angeles.
+            Most recently an AI Engineer building products at <a href="https://drata.com">Drata</a>. I've worked across data, ML, and AI for the past 10 years, usually on the platform side.
           </p>
 
-          <Heading as="h2" className={styles.sectionTitle}>Currently</Heading>
-          <p>
-            <strong>Senior AI Engineer at Drata</strong> (via the Harmonize acquisition), building AI-powered compliance automation. Recent work includes developing AI agents that generate and maintain compliance tests at scale.
-          </p>
+          <aside className={styles.nowSection}>
+            <Heading as="h2" className={styles.nowTitle}>Currently Working On</Heading>
+            <ul className={styles.nowList}>
+              <li>Building <a href="https://knitknot.ai">knitknot.ai</a> — AI-powered sales enablement</li>
+            </ul>
+            <span className={styles.nowUpdated}>Updated Jan 2026</span>
+          </aside>
 
           <Heading as="h2" className={styles.sectionTitle}>Previously</Heading>
+          <p>
+            <strong>Senior AI Engineer at <a href="https://drata.com">Drata</a></strong> (via the Harmonize acquisition), building AI-powered compliance automation. Recent work includes developing AI agents that generate and maintain compliance tests at scale.
+          </p>
           <p>
             Open Source Community Engineer at <a href="https://github.com/PrefectHQ/prefect">Prefect</a>, helping developers build reliable data pipelines.
           </p>

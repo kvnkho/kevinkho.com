@@ -7,8 +7,14 @@
 
 .name {
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
   font-weight: 600;
+}
+
+.location {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 1.5rem;
 }
 
 .bio {
@@ -27,6 +33,44 @@
 
 .bio a:hover {
   color: var(--ifm-link-hover-color);
+}
+
+/* Now section - callout card */
+.nowSection {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 0 4px 4px 0;
+}
+
+.nowTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin: 0 0 0.5rem 0;
+}
+
+.nowList {
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.nowList li {
+  margin-bottom: 0.25rem;
+}
+
+.nowList a {
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+}
+
+.nowUpdated {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
 }
 
 .sectionTitle {
