@@ -14,12 +14,6 @@ Building tools that help data teams work more efficiently:
 - **[Fugue](/fugue)** - Unified interface for distributed computing
 - **[Prefect](/prefect)** - Workflow orchestration contributions
 
-## Professional
-
-Current and past professional work:
-
-- **[Drata](/drata)** - AI-powered compliance automation
-
 ## Education
 
 Teaching and course creation:
