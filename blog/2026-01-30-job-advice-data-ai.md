@@ -1,6 +1,6 @@
 ---
 slug: job-advice-data-ai
-title: Job Advice in Data and AI
+title: Breaking Into Data and AI
 authors: [kevin]
 tags: [career, data-science, AI, machine-learning]
 description: Honest advice on breaking into data and AI from someone with 10 years in the field. The bar is rising fast, but it's not out of reach.
