@@ -6,8 +6,11 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Projects',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'intro',
+      },
       items: [
-        'intro',
         {
           type: 'category',
           label: 'Open Source',
@@ -29,8 +32,11 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Talks',
       collapsed: false,
+      link: {
+        type: 'doc',
+        id: 'talks/intro',
+      },
       items: [
-        'talks/intro',
         'talks/podcasts',
         'talks/conferences',
         'talks/tutorials',
