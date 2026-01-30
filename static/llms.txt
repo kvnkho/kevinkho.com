@@ -4,14 +4,14 @@
 
 ## About
 
-Kevin Kho is a Senior AI Engineer at Drata (via Harmonize acquisition), building AI-powered compliance automation. Previously Open Source Community Engineer at Prefect and co-author of Fugue.
+Kevin Kho is an AI/ML Engineer with 10 years of experience across data, ML, and AI. Currently building knitknot.ai for AI-powered sales enablement. Previously AI Engineer at Drata, Open Source Community Engineer at Prefect, and co-author of Fugue.
 
 ## Site Structure
 
 - `/` - About page with bio and background
 - `/blog` - Articles organized by category (AI, Drata, Fugue, Prefect)
 - `/articles` - All articles in chronological order
-- `/intro` - Projects overview (open source and professional)
+- `/intro` - Projects overview (open source and education)
 - `/talks/intro` - Conference talks, podcasts, and tutorials
 - `/experience` - Professional experience and work history
 
@@ -39,11 +39,11 @@ Workflow orchestration and data pipeline development.
 ## Projects
 
 ### Open Source
-- **Fugue** - Unified interface for distributed computing across Spark, Dask, and Ray
+- **Fugue** - Unified interface for distributed computing across Spark, Dask, and Ray (2,100+ stars)
 - **Prefect** - Workflow orchestration contributions
 
-### Professional
-- **Drata** - AI-powered compliance automation
+### Education
+- O'Reilly courses on distributed computing
 
 ## Contact
 
