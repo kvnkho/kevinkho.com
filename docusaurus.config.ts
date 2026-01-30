@@ -25,25 +25,13 @@ const config: Config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'talks',
-        path: 'talks',
-        routeBasePath: 'talks',
-        sidebarPath: './sidebarsTalks.ts',
-      },
-    ],
-  ],
-
   presets: [
     [
       'classic',
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: 'projects',
+          routeBasePath: '/',
         },
         blog: {
           showReadingTime: true,
@@ -77,20 +65,14 @@ const config: Config = {
       title: 'Kevin Kho',
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/experience', label: 'Experience', position: 'left'},
         {
           type: 'docSidebar',
-          sidebarId: 'projectsSidebar',
+          sidebarId: 'mainSidebar',
           position: 'left',
           label: 'Projects',
         },
-        {
-          type: 'docSidebar',
-          sidebarId: 'talksSidebar',
-          position: 'left',
-          label: 'Talks',
-          docsPluginId: 'talks',
-        },
+        {to: '/talks/intro', label: 'Talks', position: 'left'},
+        {to: '/experience', label: 'Experience', position: 'left'},
         {
           href: '/articles/rss.xml',
           label: 'RSS',
