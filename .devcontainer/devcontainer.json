@@ -2,11 +2,10 @@
   "name": "kevinkho.com",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
   "features": {
-    "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/astral-sh/uv:latest": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "npm install && npm i -g @anthropic-ai/claude-code && uv tool install claudechic --upgrade",
+  "postCreateCommand": "npm install && npm i -g @anthropic-ai/claude-code && curl -LsSf https://astral.sh/uv/install.sh | sh && export PATH=\"$HOME/.local/bin:$PATH\" && uv python install 3.12 && uv tool install claudechic --upgrade",
   "customizations": {
     "vscode": {
       "extensions": [
