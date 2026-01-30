@@ -2,7 +2,7 @@
 slug: productionizing-data-workflows-docker
 title: The Simple Guide to Productionizing Data Workflows with Docker
 authors: [kevin]
-tags: [docker, python, data-engineering, prefect]
+tags: [prefect, docker, python, data-engineering]
 description: An intro to Python packaging and Docker
 image: https://framerusercontent.com/images/qFg0LXrlb944ZGL3RArlg0f4LVA.jpg
 ---
