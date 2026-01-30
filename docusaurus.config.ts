@@ -69,12 +69,13 @@ const config: Config = {
           label: 'Blog',
           position: 'left',
           items: [
-            {label: 'AI', to: '/blog/tags/ai'},
-            {label: 'Drata', to: '/blog/tags/drata'},
-            {label: 'Fugue', to: '/blog/tags/fugue'},
-            {label: 'Prefect', to: '/blog/tags/prefect'},
+            {label: 'Career', to: '/articles/tags/career'},
+            {label: 'AI', to: '/articles/tags/ai'},
+            {label: 'Drata', to: '/articles/tags/drata'},
+            {label: 'Fugue', to: '/articles/tags/fugue'},
+            {label: 'Prefect', to: '/articles/tags/prefect'},
           ],
-          // Ordered by most recent post: AI (Jan 2026), Drata (Dec 2025), Fugue (Jan 2023), Prefect (Sept 2021)
+          // Ordered by most recent post: Career (Jan 2026), AI (Jan 2026), Drata (Dec 2025), Fugue (Jan 2023), Prefect (Sept 2021)
         },
         {to: '/intro', label: 'Projects', position: 'left'},
         {to: '/talks/intro', label: 'Talks', position: 'left'},
