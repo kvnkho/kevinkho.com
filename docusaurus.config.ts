@@ -77,6 +77,7 @@ const config: Config = {
       title: 'Kevin Kho',
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/experience', label: 'Experience', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'projectsSidebar',

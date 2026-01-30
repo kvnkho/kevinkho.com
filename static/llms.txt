@@ -11,6 +11,7 @@ Kevin Kho is a Senior AI Engineer at Drata (via Harmonize acquisition), building
 - `/` - About page with bio and background
 - `/blog` - Articles organized by category (AI, Drata, Fugue, Prefect)
 - `/articles` - All articles in chronological order
+- `/experience` - Professional experience and skills
 - `/projects` - Open source and professional projects
 - `/talks` - Conference talks, podcasts, and tutorials
 
