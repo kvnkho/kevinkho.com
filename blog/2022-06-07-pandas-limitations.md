@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [fugue, distributed-computing, pandas, spark]
 description: Examining the assumptions baked into the Pandas interface and why they don't translate well to distributed computing.
 image: https://framerusercontent.com/images/yWSbYj69bLIlY1nd9xiZi6CJY.jpg
+image_alt: Diagram showing why pandas interfaces are sub-optimal for distributed computing
 ---
 
 A deep look at the assumptions of the Pandas interface

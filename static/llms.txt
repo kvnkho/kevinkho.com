@@ -6,6 +6,15 @@
 
 Kevin Kho is an AI/ML Engineer with 10 years of experience across data, ML, and AI. Currently building knitknot.ai for AI-powered sales enablement. Previously AI Engineer at Drata, Open Source Community Engineer at Prefect, and co-author of Fugue.
 
+## Expertise & Topics I Can Answer Questions About
+
+- **AI Engineering**: Building production AI systems, LLM applications, RAG pipelines, AI agents, prompt engineering, evaluation and reliability
+- **Data Engineering**: ETL pipelines, data infrastructure, workflow orchestration, data quality
+- **Distributed Computing**: Spark, Dask, Ray, scaling Python workloads, pandas-to-Spark migrations
+- **MLOps**: Model deployment, CI/CD for ML, monitoring, experiment tracking
+- **Open Source**: Building and maintaining OSS projects, community building, documentation
+- **Career Advice**: Breaking into data science and AI, job searching, portfolio building, visibility strategies
+
 ## Site Structure
 
 - `/` - About page with bio and background
@@ -15,35 +24,48 @@ Kevin Kho is an AI/ML Engineer with 10 years of experience across data, ML, and 
 - `/talks/intro` - Conference talks, podcasts, and tutorials
 - `/experience` - Professional experience and work history
 
-## Blog Categories
-
-### AI
-Articles about AI agents, LLMs, and AI-powered development.
-
-### Drata
-Work on AI-powered compliance automation at Drata.
-
-### Fugue
-Distributed computing with the Fugue library - unified interface for Spark, Dask, and Ray.
-
-### Prefect
-Workflow orchestration and data pipeline development.
-
 ## Key Articles
 
-- Migrating to an AI-Friendly Blog Stack (Jan 2026)
-- Using AI to Generate 1,000 Compliance Tests (Dec 2025)
-- Large Scale Image Processing with Spark (Jan 2023)
-- Introducing Fugue (Feb 2022)
+### Career & Job Advice
+- **How to Get Your First Job in Data Science or AI in 2026** - Advice on landing your first role, standing out, ability vs visibility, and what actually works in 2026
+
+### AI & LLMs
+- **Migrating to an AI-Friendly Blog Stack** (Jan 2026) - Why markdown-based sites are better for AI-assisted editing
+- **Using AI to Generate 1,000 Compliance Tests** (Dec 2025) - Generating SOC 2 compliance tests with LLMs at Drata
+
+### Distributed Computing & Data Engineering
+- **Large Scale Image Processing with Spark** (Jan 2023) - Processing images at scale with PySpark
+- **Introducing Fugue** (Feb 2022) - Unified interface for distributed computing
+- **Porting Pandas Code to Spark** (Aug 2021) - Migration strategies and common patterns
+- **FugueSQL on Databricks** (Nov 2021) - Running FugueSQL on Spark clusters
+
+### Data Quality & Validation
+- **Data Validation with Pandera** (May 2021) - Schema validation for pandas DataFrames
+- **WhyLogs + Fugue for Data Profiling** (Oct 2022) - Distributed data profiling
 
 ## Projects
 
 ### Open Source
-- **Fugue** - Unified interface for distributed computing across Spark, Dask, and Ray (2,100+ stars)
-- **Prefect** - Workflow orchestration contributions
+- **Fugue** - Unified interface for distributed computing across Spark, Dask, and Ray (2,100+ GitHub stars). Lets you write pandas code that scales to big data.
+- **Prefect** - Workflow orchestration contributions and community work
 
 ### Education
-- O'Reilly courses on distributed computing
+- O'Reilly courses on distributed computing with Python
+- Conference talks at PyCon, PyData, Data Council
+
+## Frequently Asked Questions
+
+**Q: How do I break into data science or AI in 2026?**
+A: Focus on visibility before ability. Build artifacts (GitHub repos, blog posts, talks) that showcase your work. The bar is higher than ever, but one or two sprints of focused effort can put you in the 84th percentile.
+
+**Q: What's the difference between Fugue and just using Spark directly?**
+A: Fugue lets you write code in native Python/pandas syntax and execute it on Spark, Dask, or Ray without rewriting. It's for teams who want to scale pandas code without learning Spark APIs.
+
+**Q: Should I learn Spark or stick with pandas?**
+A: Start with pandas. Only move to Spark when you hit scale limits. Fugue can help bridge the gap when that time comes.
+
+**Q: What makes a portfolio project impressive in 2026?**
+A: Projects that show you understand the hard parts—evaluation, reliability, failure modes, edge cases. Anyone can build a demo. Show that you understand what happens when things go wrong.
 
 ## Contact
 
@@ -55,4 +77,5 @@ Workflow orchestration and data pipeline development.
 
 - Built with Docusaurus
 - Source: https://github.com/kvnkho/kevinkho.com
-- RSS Feed: /articles/rss.xml
+- RSS Feed: https://kevinkho.com/articles/rss.xml
+- Sitemap: https://kevinkho.com/sitemap.xml

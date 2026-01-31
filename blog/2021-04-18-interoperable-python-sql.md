@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [fugue, fuguesql, jupyter, pandas, spark, dask]
 description: Using SQL on top of Pandas, Spark, and Dask
 image: https://framerusercontent.com/images/zYuimAVYcvaYUvlwkycIdusuk.jpg
+image_alt: Diagram showing interoperable Python and SQL in Jupyter notebooks
 ---
 
 Using SQL on top of Pandas, Spark, and Dask

@@ -25,6 +25,60 @@ const config: Config = {
     locales: ['en'],
   },
 
+  headTags: [
+    // Twitter Card meta tags
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:site',
+        content: '@kvnkho',
+      },
+    },
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'twitter:creator',
+        content: '@kvnkho',
+      },
+    },
+    // Person structured data (JSON-LD)
+    {
+      tagName: 'script',
+      attributes: {
+        type: 'application/ld+json',
+      },
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Person',
+        name: 'Kevin Kho',
+        url: 'https://kevinkho.com',
+        image: 'https://github.com/kvnkho.png',
+        jobTitle: 'AI/ML Engineer',
+        description: 'AI/ML Engineer with 10 years of experience building data infrastructure and AI systems.',
+        sameAs: [
+          'https://github.com/kvnkho',
+          'https://linkedin.com/in/kvnkho',
+          'https://twitter.com/kvnkho',
+        ],
+        knowsAbout: [
+          'Artificial Intelligence',
+          'Machine Learning',
+          'Data Engineering',
+          'Distributed Computing',
+          'Python',
+          'Apache Spark',
+        ],
+      }),
+    },
+  ],
+
   presets: [
     [
       'classic',

@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [fugue, spark, pandas, distributed-computing]
 description: We can do this the easy way, or the hard way
 image: https://framerusercontent.com/images/bIOj4HxcPDbIiIqx8i8hmTYXOM.jpg
+image_alt: Diagram showing porting pandas code to Spark
 ---
 
 We can do this the easy way, or the hard way

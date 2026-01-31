@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [prefect, docker, python, data-engineering]
 description: An intro to Python packaging and Docker
 image: https://framerusercontent.com/images/qFg0LXrlb944ZGL3RArlg0f4LVA.jpg
+image_alt: Guide to productionizing data workflows with Docker
 ---
 
 An intro to Python packaging and Docker

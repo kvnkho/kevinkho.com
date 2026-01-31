@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [career, data-science, AI, machine-learning]
 description: Advice on landing your first data science, machine learning, or AI job in 2026. What actually works, what's changed, and how to stand out in a competitive market.
 image: /img/blog/job-advice-data-ai-thumbnail.png
+image_alt: Cityscape thumbnail for article about getting your first data science or AI job
 image_location: Unincorporated Coffee Roasters #7, Los Angeles, CA
 ---
 
