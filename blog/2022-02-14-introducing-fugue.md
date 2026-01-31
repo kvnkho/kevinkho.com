@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [fugue, spark, distributed-computing]
 description: Increase developer productivity and decrease costs for big data projects
 image: https://framerusercontent.com/images/m7OgvxhYVljTagaGvTCzKU4yuHg.jpg
+image_alt: Introducing Fugue for reducing PySpark developer friction
 ---
 
 Increase developer productivity and decrease costs for big data projects

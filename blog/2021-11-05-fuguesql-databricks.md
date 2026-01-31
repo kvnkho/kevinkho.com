@@ -5,6 +5,7 @@ authors: [kevin]
 tags: [fugue, fuguesql, spark, databricks]
 description: Connecting FugueSQL with Databricks Connect
 image: https://framerusercontent.com/images/3oJFivPgXrGMRrggCLk6aRnw6bQ.jpg
+image_alt: Diagram showing FugueSQL running on Spark with Databricks
 ---
 
 Connecting FugueSQL with Databricks Connect
