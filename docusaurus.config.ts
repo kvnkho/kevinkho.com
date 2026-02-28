@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Kevin Kho',
-  tagline: 'AI/ML Engineer. Most recently at Drata.',
+  tagline: 'Founder of KnitKnot.ai. Building AI-native revenue enablement.',
   favicon: 'img/favicon.svg',
 
   future: {
@@ -60,12 +60,18 @@ const config: Config = {
         name: 'Kevin Kho',
         url: 'https://kevinkho.com',
         image: 'https://github.com/kvnkho.png',
-        jobTitle: 'AI/ML Engineer',
-        description: 'AI/ML Engineer with 10 years of experience building data infrastructure and AI systems.',
+        jobTitle: 'Founder',
+        description: 'Founder of KnitKnot.ai. 10 years of experience building data infrastructure and AI systems.',
+        worksFor: {
+          '@type': 'Organization',
+          name: 'KnitKnot.ai',
+          url: 'https://knitknot.ai',
+        },
         sameAs: [
           'https://github.com/kvnkho',
           'https://linkedin.com/in/kvnkho',
           'https://twitter.com/kvnkho',
+          'https://knitknot.ai',
         ],
         knowsAbout: [
           'Artificial Intelligence',

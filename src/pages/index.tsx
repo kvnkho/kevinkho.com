@@ -11,7 +11,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Home"
-      description="Kevin Kho - AI/ML Engineer. Building data infrastructure and AI systems."
+      description="Kevin Kho - Founder of KnitKnot.ai. Building AI-native revenue enablement."
     >
       <main className={styles.container}>
         <Heading as="h1" className={styles.name}>
@@ -21,23 +21,12 @@ export default function Home(): ReactNode {
 
         <div className={styles.bio}>
           <p>
-            Most recently an AI Engineer building products at{" "}
-            <a href="https://drata.com">Drata</a>. I've worked across data, ML,
-            and AI for the past 10 years, usually on the platform side.
+            Founder of <a href="https://knitknot.ai">KnitKnot.ai</a>, an
+            AI-native revenue enablement platform that auto-generates branded
+            buyer rooms with AI chat, content guardrails, and buyer session
+            tracking. I've worked across data, ML, and AI for the past 10 years,
+            usually on the platform side.
           </p>
-
-          <aside className={styles.nowSection}>
-            <Heading as="h2" className={styles.nowTitle}>
-              Currently Working On
-            </Heading>
-            <ul className={styles.nowList}>
-              <li>
-                Building <a href="https://knitknot.ai">knitknot.ai</a> —
-                AI-powered sales enablement
-              </li>
-            </ul>
-            <span className={styles.nowUpdated}>Updated Jan 2026</span>
-          </aside>
 
           <Heading as="h2" className={styles.sectionTitle}>
             Previously
@@ -47,8 +36,8 @@ export default function Home(): ReactNode {
               AI Engineer at <a href="https://drata.com">Drata</a>
             </strong>{" "}
             (via the Harmonize acquisition), building AI-powered compliance
-            automation. Recent work includes developing AI agents that generate
-            and maintain compliance tests at scale.
+            automation. Developed AI agents that generate and maintain
+            compliance tests at scale.
           </p>
           <p>
             Open Source Community Engineer at{" "}
