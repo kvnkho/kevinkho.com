@@ -7,6 +7,10 @@ title: Conferences
 
 Repeated talks are excluded from this list.
 
+## 2024
+
+* [PyCon US - Speed is Not All You Need for Data Processing](https://www.youtube.com/watch?v=VpDbynrwwNo)
+
 ## 2022
 
 **Prefect**

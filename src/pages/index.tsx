@@ -35,9 +35,8 @@ export default function Home(): ReactNode {
             <strong>
               AI Engineer at <a href="https://drata.com">Drata</a>
             </strong>{" "}
-            (via the Harmonize acquisition), building AI-powered compliance
-            automation. Developed AI agents that generate and maintain
-            compliance tests at scale.
+            — AI automation for compliance use cases: question answering,
+            summarization, RAG, and platform work.
           </p>
           <p>
             Open Source Community Engineer at{" "}

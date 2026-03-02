@@ -116,7 +116,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/social-card.jpg',
+    image: 'img/favicon.svg',
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
