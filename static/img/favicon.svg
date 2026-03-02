@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"><rect width="32" height="32" fill="#1e2a38" rx="6"/><path stroke="#e07b4c" stroke-linecap="round" stroke-width="3" d="M3 6h26"/><path stroke="#e07b4c" stroke-width="1.5" d="M6 10h20"/><path fill="none" stroke="#e07b4c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 10v16m0-8 5-5m-5 5 5 5m9-13v16m0-8-5-5m5 5-5 5"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+  <rect width="32" height="32" fill="#1e2a38" rx="6"/>
+  <!-- Two pillars -->
+  <line x1="8" y1="8" x2="8" y2="28" stroke="#e07b4c" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="24" y1="8" x2="24" y2="28" stroke="#e07b4c" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Top beam (kasagi) extending beyond pillars -->
+  <line x1="4" y1="8" x2="28" y2="8" stroke="#e07b4c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Second beam (nuki) -->
+  <line x1="6" y1="13" x2="26" y2="13" stroke="#e07b4c" stroke-width="2" stroke-linecap="round"/>
+  <!-- Pillar feet flaring out -->
+  <line x1="5" y1="28" x2="11" y2="28" stroke="#e07b4c" stroke-width="2" stroke-linecap="round"/>
+  <line x1="21" y1="28" x2="27" y2="28" stroke="#e07b4c" stroke-width="2" stroke-linecap="round"/>
+</svg>
