@@ -28,6 +28,19 @@ export default function Home(): ReactNode {
             usually on the platform side.
           </p>
 
+          <aside className={styles.nowSection}>
+            <Heading as="h2" className={styles.nowTitle}>
+              Currently Working On
+            </Heading>
+            <ul className={styles.nowList}>
+              <li>
+                Building <a href="https://knitknot.ai">KnitKnot.ai</a> —
+                AI-native revenue enablement with auto-generated buyer rooms
+              </li>
+            </ul>
+            <span className={styles.nowUpdated}>Updated Mar 2026</span>
+          </aside>
+
           <Heading as="h2" className={styles.sectionTitle}>
             Previously
           </Heading>
