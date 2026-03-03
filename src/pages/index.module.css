@@ -39,15 +39,15 @@
 .nowSection {
   margin: 1.5rem 0;
   padding: 1rem 1.25rem;
-  border-left: 3px solid var(--ifm-color-primary);
-  background: var(--ifm-color-emphasis-100);
+  border-left: 3px solid #16a34a;
+  background: rgba(22, 163, 74, 0.08);
   border-radius: 0 4px 4px 0;
 }
 
 .nowTitle {
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--ifm-color-primary);
+  color: #16a34a;
   margin: 0 0 0.5rem 0;
 }
 
@@ -62,7 +62,7 @@
 }
 
 .nowList a {
-  color: var(--ifm-color-primary);
+  color: #16a34a;
   font-weight: 500;
 }
 
