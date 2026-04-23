@@ -1,8 +1,10 @@
-kevin:
+kvnkho:
   name: Kevin Kho
-  title: AI/ML Engineer
+  title: Founder of KnitKnot.ai
   url: https://kevinkho.com
   image_url: https://github.com/kvnkho.png
+  page: true
   socials:
     github: kvnkho
     linkedin: kvnkho
+    x: kvnkho

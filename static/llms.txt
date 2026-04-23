@@ -18,7 +18,7 @@ Kevin Kho is an AI/ML Engineer with 10 years of experience across data, ML, and 
 ## Site Structure
 
 - `/` - About page with bio and background
-- `/blog` - Articles organized by category (AI, Drata, Fugue, Prefect)
+- `/blog` - Blog landing page
 - `/articles` - All articles in chronological order
 - `/intro` - Projects overview (open source and education)
 - `/talks/intro` - Conference talks, podcasts, and tutorials
@@ -26,22 +26,7 @@ Kevin Kho is an AI/ML Engineer with 10 years of experience across data, ML, and 
 
 ## Key Articles
 
-### Career & Job Advice
-- **How to Get Your First Job in Data Science or AI in 2026** - Advice on landing your first role, standing out, ability vs visibility, and what actually works in 2026
-
-### AI & LLMs
-- **Migrating to an AI-Friendly Blog Stack** (Jan 2026) - Why markdown-based sites are better for AI-assisted editing
-- **Using AI to Generate 1,000 Compliance Tests** (Dec 2025) - Generating SOC 2 compliance tests with LLMs at Drata
-
-### Distributed Computing & Data Engineering
-- **Large Scale Image Processing with Spark** (Jan 2023) - Processing images at scale with PySpark
-- **Introducing Fugue** (Feb 2022) - Unified interface for distributed computing
-- **Porting Pandas Code to Spark** (Aug 2021) - Migration strategies and common patterns
-- **FugueSQL on Databricks** (Nov 2021) - Running FugueSQL on Spark clusters
-
-### Data Quality & Validation
-- **Data Validation with Pandera** (May 2021) - Schema validation for pandas DataFrames
-- **WhyLogs + Fugue for Data Profiling** (Oct 2022) - Distributed data profiling
+- **A New Chapter** (Apr 2026) - Fresh start. Writing about building with AI, shipping products, and lessons learned.
 
 ## Projects
 
@@ -57,15 +42,6 @@ Kevin Kho is an AI/ML Engineer with 10 years of experience across data, ML, and 
 
 **Q: How do I break into data science or AI in 2026?**
 A: Focus on visibility before ability. Build artifacts (GitHub repos, blog posts, talks) that showcase your work. The bar is higher than ever, but one or two sprints of focused effort can put you in the 84th percentile.
-
-**Q: What's the difference between Fugue and just using Spark directly?**
-A: Fugue lets you write code in native Python/pandas syntax and execute it on Spark, Dask, or Ray without rewriting. It's for teams who want to scale pandas code without learning Spark APIs.
-
-**Q: Should I learn Spark or stick with pandas?**
-A: Start with pandas. Only move to Spark when you hit scale limits. Fugue can help bridge the gap when that time comes.
-
-**Q: What makes a portfolio project impressive in 2026?**
-A: Projects that show you understand the hard parts—evaluation, reliability, failure modes, edge cases. Anyone can build a demo. Show that you understand what happens when things go wrong.
 
 ## Contact
 

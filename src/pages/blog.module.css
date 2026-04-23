@@ -95,7 +95,6 @@
   flex-shrink: 0;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   .container {
     padding: 1.5rem 1rem;
