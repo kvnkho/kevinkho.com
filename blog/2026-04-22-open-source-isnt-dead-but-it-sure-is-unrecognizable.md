@@ -2,7 +2,7 @@
 title: "Open Source Isn't Dead, but It Sure Is Unrecognizable"
 authors: [kvnkho]
 tags: [ai, open-source, engineering]
-slug: open-source-is-dying
+slug: open-source-isnt-dead-but-it-sure-is-unrecognizable
 image: /img/blog/open-source-is-dying-thumbnail.png
 ---
 
