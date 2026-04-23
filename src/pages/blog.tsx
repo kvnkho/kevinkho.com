@@ -15,10 +15,10 @@ type Post = {
 
 const posts: Post[] = [
   {
-    title: 'Open Source Is Dying, and AI Is Holding the Knife',
-    link: '/articles/open-source-is-dying',
+    title: 'Open Source Isn\u2019t Dead, but It Sure Is Unrecognizable',
+    link: '/articles/open-source-isnt-dead-but-it-sure-is-unrecognizable',
     date: '2026-04-22',
-    tags: ['ai', 'engineering'],
+    tags: ['ai', 'open-source', 'engineering'],
   },
 ];
 
