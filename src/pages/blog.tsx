@@ -1,17 +1,36 @@
 import type {ReactNode} from 'react';
+import {useState} from 'react';
 import Link from '@docusaurus/Link';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 
 import styles from './blog.module.css';
 
-const blogsByCategory = {
-  'AI & Engineering': [
-    {title: 'Open Source Is Dying, and AI Is Holding the Knife', link: '/articles/open-source-is-dying', date: 'Apr 2026'},
-  ],
+type Post = {
+  title: string;
+  link: string;
+  date: string;
+  tags: string[];
 };
 
+const posts: Post[] = [
+  {
+    title: 'Open Source Is Dying, and AI Is Holding the Knife',
+    link: '/articles/open-source-is-dying',
+    date: '2026-04-22',
+    tags: ['ai', 'engineering'],
+  },
+];
+
+const allTags = Array.from(new Set(posts.flatMap((p) => p.tags))).sort();
+
 export default function Blog(): ReactNode {
+  const [activeTag, setActiveTag] = useState<string | null>(null);
+
+  const filtered = activeTag
+    ? posts.filter((p) => p.tags.includes(activeTag))
+    : posts;
+
   return (
     <Layout
       title="Blog"
@@ -24,26 +43,50 @@ export default function Blog(): ReactNode {
               Thoughts on AI, engineering, and building things.
             </p>
           </div>
-          <Link to="/articles" className={styles.viewByDate}>
-            View by date &rarr;
-          </Link>
         </div>
 
-        <div className={styles.categories}>
-          {Object.entries(blogsByCategory).map(([category, posts]) => (
-            <section key={category} className={styles.category}>
-              <Heading as="h2" className={styles.categoryTitle}>{category}</Heading>
-              <ul className={styles.postList}>
-                {posts.map((post) => (
-                  <li key={post.link}>
-                    <Link to={post.link}>{post.title}</Link>
-                    <span className={styles.date}>{post.date}</span>
-                  </li>
+        {allTags.length > 1 && (
+          <div className={styles.tags}>
+            <button
+              className={`${styles.tag} ${!activeTag ? styles.tagActive : ''}`}
+              onClick={() => setActiveTag(null)}>
+              All
+            </button>
+            {allTags.map((tag) => (
+              <button
+                key={tag}
+                className={`${styles.tag} ${activeTag === tag ? styles.tagActive : ''}`}
+                onClick={() => setActiveTag(tag)}>
+                {tag}
+              </button>
+            ))}
+          </div>
+        )}
+
+        <ul className={styles.postList}>
+          {filtered.map((post) => (
+            <li key={post.link}>
+              <Link to={post.link}>{post.title}</Link>
+              <div className={styles.meta}>
+                <span className={styles.date}>
+                  {new Date(post.date + 'T00:00:00').toLocaleDateString('en-US', {
+                    month: 'short',
+                    year: 'numeric',
+                  })}
+                </span>
+                {post.tags.map((tag) => (
+                  <span key={tag} className={styles.postTag}>
+                    {tag}
+                  </span>
                 ))}
-              </ul>
-            </section>
+              </div>
+            </li>
           ))}
-        </div>
+        </ul>
+
+        {filtered.length === 0 && (
+          <p className={styles.empty}>No posts with this tag yet.</p>
+        )}
       </main>
     </Layout>
   );
