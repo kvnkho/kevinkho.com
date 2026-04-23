@@ -1,5 +1,5 @@
 ---
-title: "Open Source Isn't Dead, It Just Looks Hella Different"
+title: "Open Source Isn't Dead, but It Sure Is Unrecognizable"
 authors: [kvnkho]
 tags: [ai, open-source, engineering]
 slug: open-source-is-dying
