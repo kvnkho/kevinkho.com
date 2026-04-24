@@ -11,7 +11,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title="Home"
-      description="Kevin Kho - Founder of KnitKnot.ai. Building AI-native revenue enablement."
+      description="Kevin Kho - Founder of KnitKnot.ai. Building AI Presence Management."
     >
       <main className={styles.container}>
         <Heading as="h1" className={styles.name}>
@@ -21,11 +21,11 @@ export default function Home(): ReactNode {
 
         <div className={styles.bio}>
           <p>
-            Founder of <a href="https://knitknot.ai">KnitKnot.ai</a>, an
-            AI-native revenue enablement platform that auto-generates branded
-            buyer rooms with AI chat, content guardrails, and buyer session
-            tracking. I've worked across data, ML, and AI for the past 10 years,
-            usually on the platform side.
+            Founder of <a href="https://knitknot.ai">KnitKnot.ai</a>, an AI
+            Presence Management platform that helps companies win head-to-head
+            sales by monitoring how AI models represent them to buyers — and
+            fixing what's wrong. I've worked across data, ML, and AI for the
+            past 10 years, usually on the platform side.
           </p>
 
           <aside className={styles.nowSection}>
@@ -34,11 +34,12 @@ export default function Home(): ReactNode {
             </Heading>
             <ul className={styles.nowList}>
               <li>
-                Building <a href="https://knitknot.ai">KnitKnot.ai</a> —
-                AI-native revenue enablement with auto-generated buyer rooms
+                Building <a href="https://knitknot.ai">KnitKnot.ai</a> — AI
+                Presence Management: see how AI talks about you, fix it, win
+                more deals
               </li>
             </ul>
-            <span className={styles.nowUpdated}>Updated Mar 2026</span>
+            <span className={styles.nowUpdated}>Updated Apr 2026</span>
           </aside>
 
           <Heading as="h2" className={styles.sectionTitle}>
