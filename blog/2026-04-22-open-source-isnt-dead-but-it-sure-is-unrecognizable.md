@@ -26,11 +26,9 @@ If curl can't survive the volume, my invisible PR isn't a story about one ignore
 
 [Cal.com just went closed source after five years](https://cal.com/blog/cal-com-goes-closed-source-why). The stated reason was security: AI scanners can now systematically read any open codebase looking for vulnerabilities, faster than human maintainers can patch them. They kept a community fork around and closed the production codebase.
 
-I think the security framing is partly true and partly cover. The more pressing problem for a company like Cal.com is that anyone can now point an agent at their repo and build their own calendar system. Not even a competing product, just an internal tool. A scheduling system used to be the kind of thing you bought because building one yourself, even from open source, was more work than it was worth. Now an agent can read the whole repo, infer the architecture, and hand you something deployable in a few days. The friction that kept "use Cal.com" cheaper than "have my agent build me a Cal.com" was load-bearing for the business.
+I think the security framing is partly true and partly cover. The more pressing problem for a company like Cal.com is that anyone can now point an agent at their repo and build their own calendar system. A scheduling system used to be the kind of thing you bought because building one yourself, even from open source, was more work than it was worth. Now an agent can read the whole repo, infer the architecture, and hand you something deployable in a few days. The friction that kept "use Cal.com" cheaper than "have my agent build me a Cal.com" was load-bearing for the business.
 
-A lot of B2B SaaS sits in the same place. The product is well understood, the surface area is finite, and the moat was mostly that nobody wanted to build it themselves. That calculation is shifting.
-
-Either way, the conclusion lines up. The economics of publishing your source code shifted, and one of the most visible open source companies looked at the new math and walked. Two years ago that would have been heretical. Now it just pencils.
+But here's what actually gets lost. When Cal.com was open, a random developer could open a PR for a Zoom integration, end up in a thread with someone building the Google Calendar one, and both walk away with a connection. The code being open meant the collaboration surface was open. Close the code and you close that surface too. The serendipity isn't a side effect of open source. It is the product. Cal.com's decision pencils. It just also removes the last place those connections could form.
 
 ## The Code Was Never The Moat
 
