@@ -2,6 +2,7 @@
 title: "The UI Was the Wrong Shape"
 authors: [kvnkho]
 tags: [ai, productivity, product]
+slug: the-ui-was-the-wrong-shape
 
 ---
 

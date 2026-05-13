@@ -15,10 +15,16 @@ type Post = {
 
 const posts: Post[] = [
   {
-    title: 'Open Source Isn\u2019t Dead, but It Sure Is Unrecognizable',
-    link: '/articles/open-source-isnt-dead-but-it-sure-is-unrecognizable',
+    title: 'I Closed My PR and Moved On',
+    link: '/articles/i-closed-my-pr-and-moved-on',
     date: '2026-04-22',
     tags: ['ai', 'open-source', 'engineering'],
+  },
+  {
+    title: 'The UI Was the Wrong Shape',
+    link: '/articles/the-ui-was-the-wrong-shape',
+    date: '2026-04-27',
+    tags: ['ai', 'productivity', 'product'],
   },
 ];
 
