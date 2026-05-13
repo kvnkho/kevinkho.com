@@ -1,8 +1,8 @@
 ---
-title: "Open Source Isn't Dead, It Just Looks Unrecognizable"
+title: "I Closed My PR and Moved On"
 authors: [kvnkho]
 tags: [ai, open-source, engineering]
-slug: open-source-isnt-dead-but-it-sure-is-unrecognizable
+slug: i-closed-my-pr-and-moved-on
 image: /img/blog/open-source-is-dying-thumbnail.png
 ---
 
