@@ -104,7 +104,7 @@ export default function Home(): ReactNode {
           <Heading as="h2" className={styles.sectionTitle}>
             Things Outside Work
           </Heading>
-          <p>Anime, K-pop, basketball, keyboards.</p>
+          <p>Anime, K-pop, basketball, mechanical keyboards.</p>
 
           <div className={styles.friendSection}>
             <img
