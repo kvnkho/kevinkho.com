@@ -89,12 +89,110 @@
   margin-bottom: 0.25rem;
 }
 
+.friendSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.friendIcon {
+  width: 72px;
+  height: auto;
+  flex-shrink: 0;
+  transform: rotate(-6deg);
+}
+
+.friendText .sectionTitle {
+  margin-top: 0;
+}
+
+.contactRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+
+.contactIcon {
+  display: inline-flex;
+  color: var(--ifm-color-emphasis-700);
+  transition: color 0.15s ease;
+}
+
+.contactIcon:hover {
+  color: var(--ifm-color-primary);
+}
+
+.iconMask {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
+
+.iconEmail {
+  -webkit-mask-image: url(/img/icons/email.svg);
+  mask-image: url(/img/icons/email.svg);
+}
+
+.iconGithub {
+  -webkit-mask-image: url(/img/icons/github.svg);
+  mask-image: url(/img/icons/github.svg);
+}
+
+.iconLinkedin {
+  -webkit-mask-image: url(/img/icons/linkedin.svg);
+  mask-image: url(/img/icons/linkedin.svg);
+}
+
+.contactDot {
+  color: var(--ifm-color-emphasis-500);
+}
+
 .heroImage {
   display: block;
   max-width: 100%;
+  width: 100%;
   height: auto;
-  margin: 1.25rem 0;
-  border-radius: 4px;
+  margin: 0 auto 1.25rem;
+  border-radius: 6px;
+}
+
+/* Die-cut sticker treatment: white outline + soft drop shadow + hand-placed tilt */
+.sticker {
+  filter: drop-shadow(1.5px 0 0 #fff) drop-shadow(-1.5px 0 0 #fff)
+    drop-shadow(0 1.5px 0 #fff) drop-shadow(0 -1.5px 0 #fff)
+    drop-shadow(0 3px 4px rgba(0, 0, 0, 0.22));
+  transition: transform 0.18s ease;
+}
+
+.sticker:hover {
+  transform: rotate(0deg) scale(1.06);
+}
+
+.introRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.introRow p {
+  margin: 0;
+}
+
+.introIcon {
+  width: 84px;
+  height: auto;
+  flex-shrink: 0;
+  transform: rotate(4deg);
 }
 
 @media screen and (max-width: 768px) {
@@ -104,5 +202,14 @@
 
   .name {
     font-size: 1.75rem;
+  }
+
+  .introRow {
+    gap: 0.6rem;
+  }
+
+  .introIcon {
+    width: 60px;
+    align-self: flex-start;
   }
 }

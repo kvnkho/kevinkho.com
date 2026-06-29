@@ -40,7 +40,23 @@
       "Bash(git -C /workspaces/kevinkho.com commit -m \"$\\(cat <<''EOF''\nFix image locations for blog thumbnails\n\n- Modu Cafe, Los Angeles, CA for compliance tests post\n- Cafe De Leche, Los Angeles, CA for new stack post\n\nGenerated with [Claude Code]\\(https://claude.ai/code\\)\nvia [Happy]\\(https://happy.engineering\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nCo-Authored-By: Happy <yesreply@happy.engineering>\nEOF\n\\)\")",
       "Bash(git -C /workspaces/kevinkho.com log --oneline -3)",
       "Bash(git -C /workspaces/kevinkho.com add src/theme/BlogPostItem/index.tsx)",
-      "Bash(git -C /workspaces/kevinkho.com commit -m \"$\\(cat <<''EOF''\nShow thumbnail on individual blog posts too\n\nGenerated with [Claude Code]\\(https://claude.ai/code\\)\nvia [Happy]\\(https://happy.engineering\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nCo-Authored-By: Happy <yesreply@happy.engineering>\nEOF\n\\)\")"
+      "Bash(git -C /workspaces/kevinkho.com commit -m \"$\\(cat <<''EOF''\nShow thumbnail on individual blog posts too\n\nGenerated with [Claude Code]\\(https://claude.ai/code\\)\nvia [Happy]\\(https://happy.engineering\\)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nCo-Authored-By: Happy <yesreply@happy.engineering>\nEOF\n\\)\")",
+      "Bash(npm run *)",
+      "Bash(/Users/kevinkho/.claude/skills/gstack/browse/dist/browse viewport *)",
+      "Bash(/Users/kevinkho/.claude/skills/gstack/browse/dist/browse goto *)",
+      "Bash(/Users/kevinkho/.claude/skills/gstack/browse/dist/browse hover *)",
+      "Bash(/Users/kevinkho/.claude/skills/gstack/browse/dist/browse screenshot *)",
+      "Bash(command -v magick convert)",
+      "Bash(sips --getProperty hasAlpha /tmp/nanami_src.jpg)",
+      "Bash(python3 -c \"import PIL; print\\('PILLOW:', PIL.__version__\\)\")",
+      "Bash(python3 -m venv pilvenv)",
+      "Bash(./pilvenv/bin/pip install *)",
+      "Bash(./pilvenv/bin/python -c \"import PIL; print\\('Pillow', PIL.__version__, 'ready'\\)\")",
+      "Bash(./pilvenv/bin/python cutout.py /tmp/nanami_src.jpg /Users/kevinkho/Projects/kevinkho.com/static/img/nanami.png 30)",
+      "Bash(./pilvenv/bin/python cutout.py /tmp/kakashi_src.jpg /Users/kevinkho/Projects/kevinkho.com/static/img/kakashi.png 40)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git branch *)"
     ]
   }
 }

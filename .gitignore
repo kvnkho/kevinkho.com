@@ -34,3 +34,4 @@ yarn-error.log*
 
 # Private writing references (never push)
 BLOG-STANDARDS.md
+.gstack/
