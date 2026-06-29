@@ -22,11 +22,11 @@ export default function Home(): ReactNode {
         <div className={styles.bio}>
           <div className={styles.introRow}>
             <p>
-              Ten years across data science, data engineering, and ML
-              engineering, now in AI. Usually end up on the platform side:
-              reliability, traces, and evaluations. I focus on productionizing
-              models. You may have come across me in prior open source work. I
-              co-authored{" "}
+              Ten years across the whole data stack: data science, data
+              engineering, ML engineering, and now AI. I usually end up on the
+              platform side, working on reliability, traces, and evaluations,
+              getting models to hold up in production. You may know me from open
+              source. I co-authored{" "}
               <a href="https://github.com/fugue-project/fugue">Fugue</a> and did
               dev rel work at{" "}
               <a href="https://github.com/PrefectHQ/prefect">Prefect</a>. Now I'm
@@ -46,9 +46,8 @@ export default function Home(): ReactNode {
             <ul className={styles.nowList}>
               <li>
                 <a href="https://knitknot.ai">KnitKnot</a> — AI Presence
-                Management. Companies are starting to win or lose deals on how
-                ChatGPT and the others describe them. We measure that and help
-                fix it.
+                Management. We show companies how AI models describe them to
+                buyers, and help fix it.
               </li>
               <li>
 <a href="https://www.finosu.com">Finosu</a> — contracting on their
