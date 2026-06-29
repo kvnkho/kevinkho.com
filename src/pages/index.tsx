@@ -21,12 +21,23 @@ export default function Home(): ReactNode {
 
         <div className={styles.bio}>
           <p>
-            Founder of <a href="https://knitknot.ai">KnitKnot.ai</a>, an AI
-            Presence Management platform that helps companies win head-to-head
-            sales by monitoring how AI models represent them to buyers — and
-            fixing what's wrong. I've worked across data, ML, and AI for the
-            past 10 years, usually on the platform side.
+            I build things on the platform side of AI and data. Right now
+            that's <a href="https://knitknot.ai">KnitKnot</a> — we help
+            companies see how AI models talk about them to buyers, and fix
+            what's wrong. Before that, co-authored{" "}
+            <a href="https://github.com/fugue-project/fugue">Fugue</a> (30M+
+            downloads). Worked at{" "}
+            <a href="https://drata.com">Drata</a> on AI automation. Open source
+            community at{" "}
+            <a href="https://github.com/PrefectHQ/prefect">Prefect</a>. I like
+            the layer that makes the hard stuff invisible.
           </p>
+
+          <img
+            src="/img/what-will-you-become.png"
+            alt="But what will you become tomorrow?"
+            className={styles.heroImage}
+          />
 
           <aside className={styles.nowSection}>
             <Heading as="h2" className={styles.nowTitle}>
@@ -35,11 +46,25 @@ export default function Home(): ReactNode {
             <ul className={styles.nowList}>
               <li>
                 Building <a href="https://knitknot.ai">KnitKnot.ai</a> — AI
-                Presence Management: see how AI talks about you, fix it, win
-                more deals
+                Presence Management
+              </li>
+              <li>
+                Contracting for Finosu — payment infrastructure for my brother's company
+              </li>
+              <li>
+                Learning filmmaking. Shooting a faceless vlog on a Canon PowerShot V1
+              </li>
+              <li>
+                Building a quiet wardrobe. Gramicci, Human Made, Miansai. Trying to dress without trying too hard.
+              </li>
+              <li>
+                Watching Spy x Family, JJK, Solo Leveling
+              </li>
+              <li>
+                Thinking about basketball rosters and what they have to do with engineering team construction
               </li>
             </ul>
-            <span className={styles.nowUpdated}>Updated Apr 2026</span>
+            <span className={styles.nowUpdated}>Updated Jun 2026</span>
           </aside>
 
           <Heading as="h2" className={styles.sectionTitle}>
@@ -72,6 +97,7 @@ export default function Home(): ReactNode {
             <li>Production AI/ML infrastructure</li>
             <li>Workflow orchestration</li>
             <li>Developer experience</li>
+            <li>Basketball, Japanese fashion, K-pop, anime</li>
           </ul>
 
           <Heading as="h2" className={styles.sectionTitle}>
